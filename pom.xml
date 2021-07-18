@@ -1,233 +1,247 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.aksw.deer.plugin</groupId>
-  <artifactId>plugin-starter</artifactId>
-  <version>1.0.0</version>
-  <packaging>jar</packaging>
-  <!-- @todo Customize this value 👇 -->
-  <name>DEER Simple Example Plugin</name>
-  <!-- @todo Customize this value 👇 -->
-  <description>DEER Plugin Starter</description>
-  <!-- @todo Customize this value 👇 -->
-  <url>https://github.com/dice-group/DEER</url>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.aksw.deer.plugin</groupId>
+	<artifactId>plugin-starter</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<!-- @todo Customize this value 👇 -->
+	<name>DEER Simple Example Plugin</name>
+	<!-- @todo Customize this value 👇 -->
+	<description>DEER Plugin Starter</description>
+	<!-- @todo Customize this value 👇 -->
+	<url>https://github.com/dice-group/DEER</url>
 
-  <scm>
-    <!-- @todo Customize this value 👇 -->
-    <url>https://github.com/dice-group/deer-plugin-starter</url>
-    <!-- @todo Customize this value 👇 -->
-    <connection>scm:git:https://github.com/dice-group/deer-plugin-starter.git</connection>
-    <tag>HEAD</tag>
-  </scm>
+	<scm>
+		<!-- @todo Customize this value 👇 -->
+		<url>https://github.com/dice-group/deer-plugin-starter</url>
+		<!-- @todo Customize this value 👇 -->
+		<connection>scm:git:https://github.com/dice-group/deer-plugin-starter.git</connection>
+		<tag>HEAD</tag>
+	</scm>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <!-- @todo Customize this value 👇 -->
-    <plugin.id>example-enrichment-plugin</plugin.id>
-    <!-- @todo Customize this value 👇 -->
-    <plugin.class>org.aksw.deer.plugin.example.ExampleEnrichmentPlugin</plugin.class>
-    <!-- @todo Customize this value 👇 -->
-    <plugin.version>1.0.0</plugin.version>
-    <!-- @todo Customize this value 👇 -->
-    <plugin.provider>Kevin Dreßler</plugin.provider>
-    <plugin.dependencies/>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<!-- @todo Customize this value 👇 -->
+		<plugin.id>ontology-matching-plugin</plugin.id>
+		<!-- @todo Customize this value 👇 -->
+		<plugin.class>org.aksw.deer.plugin.example.OntologyMatchingPlugin</plugin.class>
+		<!-- @todo Customize this value 👇 -->
+		<plugin.version>1.0.0</plugin.version>
+		<!-- @todo Customize this value 👇 -->
+		<plugin.provider>Kevin Dreßler</plugin.provider>
+		<plugin.dependencies />
 
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <deer.version>2.3.0</deer.version>
-  </properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<deer.version>2.3.0</deer.version>
+	</properties>
 
-  <repositories>
+	<repositories>
 
-    <repository>
-      <id>sonatype-nexus-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
+		<!-- For accessing local jar -->
+		<repository>
+			<id>data-local</id>
+			<name>data</name>
+			<url>file://${project.basedir}/repo</url>
+		</repository>
 
-    <repository>
-      <id>maven.aksw.internal</id>
-      <name>University Leipzig, AKSW Maven2 Internal Repository</name>
-      <url>https://maven.aksw.org/repository/internal/</url>
-    </repository>
+		<repository>
+			<id>sonatype-nexus-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 
-    <repository>
-      <id>maven.aksw.snapshots</id>
-      <name>University Leipzig, AKSW Maven2 Snapshot Repository</name>
-      <url>https://maven.aksw.org/repository/snapshots/</url>
-    </repository>
+		<repository>
+			<id>maven.aksw.internal</id>
+			<name>University Leipzig, AKSW Maven2 Internal Repository</name>
+			<url>https://maven.aksw.org/repository/internal/</url>
+		</repository>
 
-    <repository>
-      <id>maven2-repository.java.net</id>
-      <name>Java.net Repository for Maven</name>
-      <url>https://download.java.net/maven/2/</url>
-      <layout>default</layout>
-    </repository>
+		<repository>
+			<id>maven.aksw.snapshots</id>
+			<name>University Leipzig, AKSW Maven2 Snapshot Repository</name>
+			<url>https://maven.aksw.org/repository/snapshots/</url>
+		</repository>
 
-    <repository>
-      <id>jcenter</id>
-      <url>https://jcenter.bintray.com</url>
-    </repository>
+		<repository>
+			<id>maven2-repository.java.net</id>
+			<name>Java.net Repository for Maven</name>
+			<url>https://download.java.net/maven/2/</url>
+			<layout>default</layout>
+		</repository>
 
-    <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
-    </repository>
+		<repository>
+			<id>jcenter</id>
+			<url>https://jcenter.bintray.com</url>
+		</repository>
 
-  </repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+
+	</repositories>
 
 
-  <build>
-    <plugins>
+	<build>
+		<plugins>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <release>${maven.compiler.source}</release>
-          <encoding>${project.build.sourceEncoding}</encoding>
-          <annotationProcessorPaths>
-            <annotationProcessorPath>
-              <groupId>org.pf4j</groupId>
-              <artifactId>pf4j</artifactId>
-              <version>3.0.1</version>
-            </annotationProcessorPath>
-          </annotationProcessorPaths>
-          <annotationProcessors>
-            <annotationProcessor>org.pf4j.processor.ExtensionAnnotationProcessor
-            </annotationProcessor>
-          </annotationProcessors>
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm</artifactId>
-            <version>7.1</version>
-          </dependency>
-        </dependencies>
-      </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>${maven.compiler.source}</release>
+					<encoding>${project.build.sourceEncoding}</encoding>
+					<annotationProcessorPaths>
+						<annotationProcessorPath>
+							<groupId>org.pf4j</groupId>
+							<artifactId>pf4j</artifactId>
+							<version>3.0.1</version>
+						</annotationProcessorPath>
+					</annotationProcessorPaths>
+					<annotationProcessors>
+						<annotationProcessor>org.pf4j.processor.ExtensionAnnotationProcessor
+						</annotationProcessor>
+					</annotationProcessors>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.ow2.asm</groupId>
+						<artifactId>asm</artifactId>
+						<version>7.1</version>
+					</dependency>
+				</dependencies>
+			</plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-source-plugin</artifactId>
-        <version>3.0.1</version>
-        <executions>
-          <execution>
-            <id>attach-sources</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>jar-no-fork</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.0.1</version>
-        <executions>
-          <execution>
-            <id>aggregate</id>
-            <phase>package</phase>
-            <goals>
-              <goal>aggregate-jar</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <includeDependencySources>true</includeDependencySources>
-          <dependencySourceIncludes>
-            <dependencySourceInclude>org.aksw.deer:*</dependencySourceInclude>
-            <dependencySourceInclude>org.aksw.faraday_cage:*</dependencySourceInclude>
-          </dependencySourceIncludes>
-          <links>
-            <link>https://jena.apache.org/documentation/javadoc/jena</link>
-          </links>
-        </configuration>
-      </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>aggregate</id>
+						<phase>package</phase>
+						<goals>
+							<goal>aggregate-jar</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<includeDependencySources>true</includeDependencySources>
+					<dependencySourceIncludes>
+						<dependencySourceInclude>org.aksw.deer:*</dependencySourceInclude>
+						<dependencySourceInclude>org.aksw.faraday_cage:*</dependencySourceInclude>
+					</dependencySourceIncludes>
+					<links>
+						<link>https://jena.apache.org/documentation/javadoc/jena</link>
+					</links>
+				</configuration>
+			</plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.2</version>
-        <configuration>
-          <forkCount>0</forkCount>
-          <argLine>-Xms256m -Xmx8G</argLine>
-          <testFailureIgnore>false</testFailureIgnore>
-          <skipTests>false</skipTests>
-          <useManifestOnlyJar>false</useManifestOnlyJar>
-        </configuration>
-      </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<forkCount>0</forkCount>
+					<argLine>-Xms256m -Xmx8G</argLine>
+					<testFailureIgnore>false</testFailureIgnore>
+					<skipTests>false</skipTests>
+					<useManifestOnlyJar>false</useManifestOnlyJar>
+				</configuration>
+			</plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-          <finalName>${project.artifactId}-${project.version}-plugin</finalName>
-          <appendAssemblyId>false</appendAssemblyId>
-          <attach>false</attach>
-          <archive>
-            <manifest>
-              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-            </manifest>
-            <manifestEntries>
-              <Plugin-Id>${plugin.id}</Plugin-Id>
-              <Plugin-Version>${plugin.version}</Plugin-Version>
-              <Plugin-Provider>${plugin.provider}</Plugin-Provider>
-              <Plugin-Class>${plugin.class}</Plugin-Class>
-              <Plugin-Dependencies>${plugin.dependencies}</Plugin-Dependencies>
-            </manifestEntries>
-          </archive>
-        </configuration>
-        <executions>
-          <execution>
-            <id>make-assembly</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-        <version>2.8.2</version>
-      </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+					<finalName>${project.artifactId}-${project.version}-plugin</finalName>
+					<appendAssemblyId>false</appendAssemblyId>
+					<attach>false</attach>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+						</manifest>
+						<manifestEntries>
+							<Plugin-Id>${plugin.id}</Plugin-Id>
+							<Plugin-Version>${plugin.version}</Plugin-Version>
+							<Plugin-Provider>${plugin.provider}</Plugin-Provider>
+							<Plugin-Class>${plugin.class}</Plugin-Class>
+							<Plugin-Dependencies>${plugin.dependencies}</Plugin-Dependencies>
+						</manifestEntries>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+				<version>2.8.2</version>
+			</plugin>
 
-    </plugins>
-  </build>
+		</plugins>
+	</build>
 
-  <dependencies>
+	<dependencies>
 
-    <dependency>
-      <groupId>org.aksw.deer</groupId>
-      <artifactId>deer-core</artifactId>
-      <version>${deer.version}</version>
-      <!-- !!! VERY IMPORTANT -->
-      <scope>provided</scope>
-    </dependency>
+		<!-- For depending of Logmap -->
+		<dependency>
+			<groupId>uk.ox.logmap</groupId>
+			<artifactId>logmap-matcher</artifactId>
+			<version>4.0</version>
+		</dependency>
 
-  </dependencies>
+		<dependency>
+			<groupId>org.aksw.deer</groupId>
+			<artifactId>deer-core</artifactId>
+			<version>${deer.version}</version>
+			<!-- !!! VERY IMPORTANT -->
+			<scope>provided</scope>
+		</dependency>
+
+	</dependencies>
 
 </project>

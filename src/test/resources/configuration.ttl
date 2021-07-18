@@ -13,12 +13,11 @@
 .
 
 :matcher
- a deer:IntanceMactchingOperator ;
+ a deer:OntologyMatchingOperator ;
  fcage:hasInput :reader ;
  deer:selector [ deer:predicate rdfs:label ];
-
 .
- 
+
 
 :writer
   a deer:StdOutModelWriter ;
