@@ -1,0 +1,81 @@
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	 <http://www.w3.org/2002/07/owl#Class>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#subClassOf>	 <http://dbpedia.org/ontology/Settlement>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2002/07/owl#equivalentClass>	 <http://schema.org/City>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2002/07/owl#equivalentClass>	 <http://www.wikidata.org/entity/Q515>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <city@en>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <Stadt@de>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <??@ko>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <by@da>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <cathair@ga>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <cidade@gl>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <cidade@pt>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <città@it>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <ciudad@es>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <miasto@pl>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <stad@nl>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <ville@fr>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <????@el>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <???@hi>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <?@ja>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	 <http://dbpedia.org/ontology/>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <a relatively large and permanent settlement, particularly a large urban settlement@en>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <un asentamiento permanente y relativamente grande, especialmente un gran asentamiento urbano@es>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <Actualmente considérase como unha entidade urbana con alta densidade de poboación na que predominan fundamentalmente a industria e os servizos.@gl>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/2007/05/powder-s#describedby>	 <http://dbpedia.org/ontology/data/definitions.ttl>
+<http://dbpedia.org/ontology/City>	 <http://www.w3.org/ns/prov#wasDerivedFrom>	 <http://mappings.dbpedia.org/index.php/OntologyClass:City>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	 <http://www.w3.org/2002/07/owl#Class>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#subClassOf>	 <http://dbpedia.org/ontology/Settlement>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <Stadtviertel@de>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <city district@en>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <quartier@fr>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <stadswijk@nl>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	 <http://dbpedia.org/ontology/>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <District, borough, area or neighbourhood in a city or town@en>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/2007/05/powder-s#describedby>	 <http://dbpedia.org/ontology/data/definitions.ttl>
+<http://dbpedia.org/ontology/CityDistrict>	 <http://www.w3.org/ns/prov#wasDerivedFrom>	 <http://mappings.dbpedia.org/index.php/OntologyClass:CityDistrict>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	 <http://www.w3.org/2002/07/owl#Class>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#subClassOf>	 <http://dbpedia.org/ontology/Settlement>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <Historical settlement@en>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <ancien ville ou village@fr>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <historischer Siedlung@de>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <voormalige stad of dorp@nl>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <áit lonnaithe stairiúil@ga>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	 <http://dbpedia.org/ontology/>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <A place which used to be a city or town or village.@en>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/2007/05/powder-s#describedby>	 <http://dbpedia.org/ontology/data/definitions.ttl>
+<http://dbpedia.org/ontology/HistoricalSettlement>	 <http://www.w3.org/ns/prov#wasDerivedFrom>	 <http://mappings.dbpedia.org/index.php/OntologyClass:HistoricalSettlement>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	 <http://www.w3.org/2002/07/owl#Class>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#subClassOf>	 <http://dbpedia.org/ontology/Settlement>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2002/07/owl#equivalentClass>	 <http://www.wikidata.org/entity/Q3957>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <town@en>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <Stadt@de>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <baile@ga>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <miasteczko@pl>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <stad@nl>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <ville@fr>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <????@el>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <???@hi>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <?@ja>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	 <http://dbpedia.org/ontology/>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <a settlement ranging from a few hundred to several thousand (occasionally hundreds of thousands). The precise meaning varies between countries and is not always a matter of legal definition. Usually, a town is thought of as larger than a village but smaller than a city, though there are exceptions to this rule.@en>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/2007/05/powder-s#describedby>	 <http://dbpedia.org/ontology/data/definitions.ttl>
+<http://dbpedia.org/ontology/Town>	 <http://www.w3.org/ns/prov#wasDerivedFrom>	 <http://mappings.dbpedia.org/index.php/OntologyClass:Town>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	 <http://www.w3.org/2002/07/owl#Class>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#subClassOf>	 <http://dbpedia.org/ontology/Settlement>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2002/07/owl#equivalentClass>	 <http://www.wikidata.org/entity/Q532>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <village@en>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <desa@in>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <dorf@de>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <dorp@nl>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <lugar@gl>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <sráidbhaile@ga>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <village@fr>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <wie?@pl>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <?????@el>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <????@hi>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#label>	 <?@ja>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	 <http://dbpedia.org/ontology/>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <Núcleo pequeno de poboación en que se divide unha parroquia, con poucos veciños e de carácter rural.@gl>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2000/01/rdf-schema#comment>	 <a clustered human settlement or community, usually smaller a town@en>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/2007/05/powder-s#describedby>	 <http://dbpedia.org/ontology/data/definitions.ttl>
+<http://dbpedia.org/ontology/Village>	 <http://www.w3.org/ns/prov#wasDerivedFrom>	 <http://mappings.dbpedia.org/index.php/OntologyClass:Village>

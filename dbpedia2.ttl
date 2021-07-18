@@ -1,0 +1,113 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix schema: <http://schema.org/> .
+@prefix ns7:   <http://mappings.dbpedia.org/index.php/OntologyClass:> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns9:   <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+dbo:Document  a              owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  foaf:Document ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Document .
+
+dbo:TelevisionSeason  a      owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:TelevisionSeason .
+
+dbo:Cartoon  a               owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  wikidata:Q627603 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Cartoon .
+
+dbo:LineOfFashion  a         owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:LineOfFashion .
+
+dbo:Film  a                  owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  schema:Movie , wikidata:Q11424 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Film .
+
+dbo:Artwork  a               owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Artwork .
+
+dbo:Website  a               owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  schema:WebSite ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Website .
+
+dbo:MusicalWork  a           owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  wikidata:Q2188189 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:MusicalWork .
+
+dbo:Software  a              owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  wikidata:Q7397 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Software .
+
+dbo:TelevisionShow  a        owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  wikidata:Q15416 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:TelevisionShow .
+
+dbo:WrittenWork  a           owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  wikidata:Q234460 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:WrittenWork .
+
+dbo:TelevisionEpisode
+        a                    owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  schema:TVEpisode ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:TelevisionEpisode .
+
+dbo:RadioProgram  a          owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        owl:equivalentClass  wikidata:Q1555508 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:RadioProgram .
+
+dbo:Database  a              owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      ns9:InformationObject , dbo:Work ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:Database .
+
+dbo:CollectionOfValuables
+        a                    owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:CollectionOfValuables .

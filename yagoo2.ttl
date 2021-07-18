@@ -1,0 +1,119 @@
+@prefix bds:   <http://www.bigdata.com/rdf/search#> .
+@prefix bd:    <http://www.bigdata.com/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix hint:  <http://www.bigdata.com/queryHints#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://yago-knowledge.org/resource/Music_video>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Product> , <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Television_advertisement>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Product> , <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Animated_cartoon>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Original_net_animation>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Cult_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Fan_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Web_documentary>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Comedy_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Concert_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/3D_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Short_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Narrative_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Remake>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Animated_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Drama_(film_and_television)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Silent_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Video_clip>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Television_pilot>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/TVEpisode> , <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Serial_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> , <http://schema.org/CreativeWorkSeries> .
+
+<http://yago-knowledge.org/resource/Documentary_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Feature_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Television_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Live-action_animated_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Rockumentary>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Video_game_remake>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/VideoGame> , <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Viral_video>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> .
+
+<http://yago-knowledge.org/resource/Anthology_film>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Movie> , <http://schema.org/CreativeWorkSeries> , <http://schema.org/Collection> .

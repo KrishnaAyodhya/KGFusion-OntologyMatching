@@ -1,0 +1,1791 @@
+@prefix bds:   <http://www.bigdata.com/rdf/search#> .
+@prefix bd:    <http://www.bigdata.com/rdf#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix hint:  <http://www.bigdata.com/queryHints#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://yago-knowledge.org/resource/Districts_of_Latvia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Bosnia_and_Herzegovina>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_Corporation_(India)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Laos>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Uganda>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Switzerland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Mali>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Denmark>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_national_parks_of_Zambia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Park> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_municipalities_in_Turkey>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_national_parks_of_Guatemala>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Park> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Maalaiskunta>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_boroughs_of_Oslo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_parishes_in_New_Brunswick>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Khwaeng>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_council_(Israel)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Montenegro>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_service_district_(New_Brunswick)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Sofia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Algeria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Senegal>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_regions_of_the_Federal_District_(Brazil)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Palestine>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Yemen>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Djibouti>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Legislative_districts_of_the_Philippines>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Apostolic_prefecture>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Comune>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_local_urban_districts_in_Manitoba>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/District_municipality_(South_Africa)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Málaga>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/League_of_Nations_mandate>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Legislative_Yuan_constituencies>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Divisions_of_Malaysia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Paraguay>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Historic_counties_of_England>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Suriname>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_municipality>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Seychelles>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_district>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Arrondissements_of_Belgium>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Iran>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Spain>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Localities_of_Mexico>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Department_(country_subdivision)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_divisions_of_Russia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/'Uzlah>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Syria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_China>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_regional_districts_of_British_Columbia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Fief>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Crown_colony>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Banners_of_Inner_Mongolia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Emirate>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_electoral_area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_centre>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Mexico_City>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_districts_of_Costa_Rica>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Madagascar>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Arrondissements_of_Senegal>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Grand_duchy>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_tehsils_in_India>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Ontario_separated_municipalities>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Cameroon>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Kyrgyzstan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Israeli_outpost>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_borough>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Liechtenstein>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Associated_communes_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/County_town>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Nova_Scotia_provincial_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Ecclesiastical_region>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Switzerland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Syria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Sweden>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Home_Rule_Municipality_(Pennsylvania)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Algeria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Fu_(country_subdivision)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Large_burgh>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Zambia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Japan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Uzbekistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Généralité>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Agrotown_(Belarus)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_region_(Brazil)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Divisions_of_Pakistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_zones_of_Ethiopia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/District-level_town_(Vietnam)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Israeli_settlement>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Gu_(administrative_division)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Düsseldorf>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Elderships_of_Lithuania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Malawi>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_districts_of_Victoria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Burundi>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Condominium_(international_law)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_borough>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Corregimientos_of_Colombia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_zones_of_Nepal>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_the_Republic_of_the_Congo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_government_areas_of_Nigeria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Ghana>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Autonomous_oblasts_of_the_Soviet_Union>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Madrid>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communauté_urbaine>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Belarus>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_municipalities_in_Georgia_(country)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Duchies_of_Silesia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_districts_of_Queensland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Hungary_(before_1920)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_districts_of_Yemen>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Bangladesh>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Serbia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Apostolic_vicariate>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Combined_statistical_area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Barrios_of_Puerto_Rico>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Judicial_district>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Chile>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_East_Timor>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Miasteczko>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Gabon>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Tunisia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Community_councils_of_Lesotho>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Honduras>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/County_(Taiwan)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Landscape_Parks_of_Poland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Myanmar>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Apostolic_administration>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Indonesia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_urban-type_settlements_in_Ukraine_by_subdivision>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Ontario_federal_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_divisions_of_China>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Eparchy>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Sierra_Leone>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Deme>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Portugal>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Germany>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Albania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_and_communities_of_Greece>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Autonomous_administrative_division>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Judicial_districts_of_Peru>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_districts_of_New_South_Wales>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Puerto_Rico>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Bolivia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_district_(Canada)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Freguesia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Samoa>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_councils_of_Malta>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_villages_in_Alberta>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_England>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_British_India>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Niger>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Slovakia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Product> , <http://schema.org/CreativeWork> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Jewish_quarter_(diaspora)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_the_Faroe_Islands>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Community_college_district>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_tehsils_of_Punjab,_Pakistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Turkmenistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Zimbabwe>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Davao_City>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Mozambique>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Prague>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Barony_(county_division)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Colombia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Angola>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_counties_of_New_Brunswick>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Constituencies_of_Namibia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Landeskirche>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_regions_in_Germany>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorate_(Russia)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Mahallah>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_government_in_The_Bahamas>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Romania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Military_ordinariate>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Frazione>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Norway>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_posts_of_East_Timor>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Gewogs_of_Bhutan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_divisions_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Sweden>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Mauritania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Arrondissements_of_Benin>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Guatemala>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Atolls_of_the_Maldives>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Gmina>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Lieutenancy_areas_of_Scotland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Baladiyat_of_Libya>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Medellín>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Little_Italy>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Panama>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_British_Columbia_provincial_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Mission_sui_iuris>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Constituencies_of_Iceland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Delegations_of_Tunisia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Județ>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Joint_technological_education_district>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/GovernmentOrganization> , <http://schema.org/GovernmentOffice> , <http://schema.org/EducationalOrganization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_South_Sudan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Ecclesiastical_province>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Vienna>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Slovenia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/County_(United_States)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Ireland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Alberta_federal_electoral_ridings>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Qatar>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/County>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_cities_of_Italy>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Ontario_provincial_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Jamoats_of_Tajikistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Iraq>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Estonia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/District_(Vietnam)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Federal_electoral_districts_of_Mexico>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Commandery_(China)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Minor_local_entity>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Mikhlaf>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Nuevo_León>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Koreatown>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Jordan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Moldova>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Moldova>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Iceland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Eastern_Catholic_Churches>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Finland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Community_council>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Administrative_Regions_in_Rio_de_Janeiro>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_parishes_in_Prince_Edward_Island>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Divisions_of_the_Australian_House_of_Representatives>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Intrastate_region>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_territories_of_the_Democratic_Republic_of_the_Congo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Insular_area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Community_(administrative_division)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Ivory_Coast>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Hungary>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_districts_of_Nepal>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Croatia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Autonomous_Soviet_Socialist_Republics_of_the_Soviet_Union>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Paraguay>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Rwanda>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Niger>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_Service_District_(Newfoundland_and_Labrador)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://schema.org/Country>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_divisions_of_the_Northern_Territory>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Indian_reserve>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Uruguay>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Nauru>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_the_Czech_Republic>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Cameroon>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Tajikistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_districts_of_Ukraine>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Alberta_provincial_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Haiti>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Guatemala>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Divisional_Secretariats_of_Sri_Lanka>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_San_Marino>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Luxembourg>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Sri_Lanka>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Fortified_district>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_division_(Ireland)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Germany>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Albania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Ivory_Coast>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Micropolitan_statistical_area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_government_in_Canada>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_Saskatchewan_provincial_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/District_municipality>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Cuba>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Muban>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Egypt>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_constituencies_of_the_National_Assembly_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/İlçe>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Espoo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Duchy>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_districts_of_South_Australia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Community_boards_of_New_York_City>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Mukims_of_Brunei>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/London_boroughs>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Iceland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_New_Brunswick_provincial_electoral_districts>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Euroregion>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorate-General_(Russian_Empire)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Norway>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Mexico>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_okrugs_of_Moscow>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Combined_authority>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_the_Spanish_Empire>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_summer_villages_in_Alberta>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_divisions_of_New_York_(state)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Gromada>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Agglomeration_communities_in_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Croatia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Equivalent_territory>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_boroughs_of_the_County_of_London>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolis_(religious_jurisdiction)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Dong_(administrative_division)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Ethnic_townships,_towns,_and_sumu>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Hungary>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_districts_of_Indonesia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Iraq>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Benin>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Nicaragua>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Graz>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Awrajja>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_El_Salvador>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Turku>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Arrondissement>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Colombia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Basic_statistical_unit_(Norway)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Ivory_Coast>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Division_(country_subdivision)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Prussia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Lithuania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_the_Democratic_Republic_of_the_Congo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Barangay>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Afghanistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Mauritania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Libya>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Kazakhstan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Ethiopia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Bailiwick>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Liberia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Amt>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Brazil>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Argentina>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Bolivia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_districts_in_Malaysia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Electoral_districts_of_Western_Australia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_municipality_(South_Africa)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Benin>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/County_park>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Park> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communauté_de_communes>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_communes_of_Haiti>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Autonomous_communities_of_Spain>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Judicial_districts_of_Spain>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Corregimiento>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Bakhsh>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://schema.org/City>
+        a                owl:Class , <http://www.w3.org/ns/shacl#NodeShape> ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> ;
+        <http://www.w3.org/ns/shacl#property>
+                <http://yago-knowledge.org/value/shape-prop-schema-City-schema-iataCode> ;
+        <http://www.w3.org/ns/shacl#targetClass>
+                <http://schema.org/City> .
+
+<http://yago-knowledge.org/resource/List_of_districts_in_Budapest>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Barony_(Ireland)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_arrondissements_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/European_Parliament_constituency>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Libya>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_wards_of_Zimbabwe>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Exclusive_economic_zone>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Uganda>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Dzongkhag>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_parishes_of_the_Isle_of_Man>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Eyalet>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Basic_People's_Congress_(country_subdivision)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Constituencies_of_Belize>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Autonomous_prefecture>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_districts_of_Quebec>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Yerevan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_Council_(India)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Dzielnica>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Senegal>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Kosovo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_townships_in_Missouri>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Thing> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Chad>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Corregimientos_of_Panama>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Community_(Wales)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communal_section>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Amtsbezirk>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Dehestan_(administrative_division)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Nicaragua>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Indian_reservation>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_statistical_area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_the_Republic_of_the_Congo>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Economic_regions_of_Russia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Mkhare>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Conservation_park_(Australia)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Liberia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/County-level_city>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Han_system>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Cambodia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_community_development_blocks_in_India>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Honduras>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Jyväskylä>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_federal_electoral_districts_in_British_Columbia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Argentina>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Functional_constituency_(Hong_Kong)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Amphoe>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_national_parks_of_Japan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Park> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_the_Gambia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_regions_of_Greece>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Grama_Niladhari>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Sudan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Belgium>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_North_Macedonia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_divisions_of_Poland>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_municipalities_of_the_Dominican_Republic>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Episcopal_see>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Lebanon>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Métropole>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Gemarkung>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Lesotho>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Deanery>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Mukim>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Arrondissements_of_France>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_district>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Denmark>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Fanzhen>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/American_Viticultural_Area>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Sweden>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/List_of_former_counties_of_Quebec>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_and_cities_of_Serbia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Pakistan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Metropolitan_regions_of_Norway>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Commote>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Japan>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Hong_Kong>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/March_(territory)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Herrschaft>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Peru>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Autonomous_county>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_El_Salvador>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Commune_(Vietnam)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Kenya>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Bulgaria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Constituencies_of_Singapore>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Agencies_of_British_India>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://schema.org/State>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_divisions_of_Ukraine>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Departments_of_Burkina_Faso>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_the_Philippines>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Governorates_of_Oman>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Counties_of_Lithuania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipalities_of_Venezuela>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Corporation> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Mongolia>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_New_Zealand>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Historic_counties_of_Wales>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Botswana>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Micronation>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Italian_mountain_community>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Imperial_Circle>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communes_of_Buenos_Aires>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Tanzania>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Local_government_in_Victoria>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Administrative_divisions_of_Canada>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Communal_constituencies>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Districts_of_Zagreb>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/AdministrativeArea> .
+
+<http://yago-knowledge.org/resource/Municipal_authority_(Pennsylvania)>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://schema.org/Organization> , <http://schema.org/AdministrativeArea> .

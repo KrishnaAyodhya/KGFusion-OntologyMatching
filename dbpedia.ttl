@@ -1,0 +1,43 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix schema: <http://schema.org/> .
+@prefix ns8:   <http://mappings.dbpedia.org/index.php/OntologyClass:> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+
+dbo:HistoricalSettlement
+        a                    owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Settlement ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns8:HistoricalSettlement .
+
+dbo:Village  a               owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Settlement ;
+        owl:equivalentClass  wikidata:Q532 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns8:Village .
+
+dbo:Town  a                  owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Settlement ;
+        owl:equivalentClass  wikidata:Q3957 ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns8:Town .
+
+dbo:CityDistrict  a          owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Settlement ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns8:CityDistrict .
+
+dbo:City  a                  owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Settlement ;
+        owl:equivalentClass  wikidata:Q515 , schema:City ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns8:City .
