@@ -1,0 +1,30 @@
+_:Bec5854cfX2D904eX2D47afX2D974eX2D82a3f53a3376 <https://w3id.org/deer/confidenceValue> "0.505" .
+_:Bec5854cfX2D904eX2D47afX2D974eX2D82a3f53a3376 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://rdfs.org/ns/void#Dataset> .
+_:Bec5854cfX2D904eX2D47afX2D974eX2D82a3f53a3376 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
+_:Bec5854cfX2D904eX2D47afX2D974eX2D82a3f53a3376 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://www.contextdatacloud.org/cmo/ontology/Dataset> .
+_:Bec5854cfX2D904eX2D47afX2D974eX2D82a3f53a3376 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+_:B914c3e34X2De017X2D4825X2DadeeX2D20144518fe97 <https://w3id.org/deer/confidenceValue> "0.505" .
+_:B914c3e34X2De017X2D4825X2DadeeX2D20144518fe97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://purl.org/dc/terms/Dataset> .
+_:B914c3e34X2De017X2D4825X2DadeeX2D20144518fe97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
+_:B914c3e34X2De017X2D4825X2DadeeX2D20144518fe97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://www.contextdatacloud.org/cmo/ontology/Dataset> .
+_:B914c3e34X2De017X2D4825X2DadeeX2D20144518fe97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+_:Bdb529aedX2D84c1X2D43baX2Dac0cX2D8b9bbf292e08 <https://w3id.org/deer/confidenceValue> "0.7030000000000001" .
+_:Bdb529aedX2D84c1X2D43baX2Dac0cX2D8b9bbf292e08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://www.w3.org/ns/dcat#Dataset> .
+_:Bdb529aedX2D84c1X2D43baX2Dac0cX2D8b9bbf292e08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
+_:Bdb529aedX2D84c1X2D43baX2Dac0cX2D8b9bbf292e08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://www.contextdatacloud.org/cmo/ontology/Dataset> .
+_:Bdb529aedX2D84c1X2D43baX2Dac0cX2D8b9bbf292e08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<Match 1> <found> _:B914c3e34X2De017X2D4825X2DadeeX2D20144518fe97 .
+<Match 1> <found> _:Bdb529aedX2D84c1X2D43baX2Dac0cX2D8b9bbf292e08 .
+<Match 1> <found> _:Bec5854cfX2D904eX2D47afX2D974eX2D82a3f53a3376 .
+<Match 1> <found> _:Bd6e94e11X2Da15aX2D4ff1X2D9611X2De9aa954c55fb .
+<Match 1> <found> _:B3501ae7eX2D7fbbX2D401fX2D99f4X2D441a835e1d75 .
+_:B3501ae7eX2D7fbbX2D401fX2D99f4X2D441a835e1d75 <https://w3id.org/deer/confidenceValue> "0.7030000000000001" .
+_:B3501ae7eX2D7fbbX2D401fX2D99f4X2D441a835e1d75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:B3501ae7eX2D7fbbX2D401fX2D99f4X2D441a835e1d75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
+_:B3501ae7eX2D7fbbX2D401fX2D99f4X2D441a835e1d75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://www.w3.org/2002/07/owl#Class> .
+_:B3501ae7eX2D7fbbX2D401fX2D99f4X2D441a835e1d75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+_:Bd6e94e11X2Da15aX2D4ff1X2D9611X2De9aa954c55fb <https://w3id.org/deer/confidenceValue> "0.7030000000000001" .
+_:Bd6e94e11X2Da15aX2D4ff1X2D9611X2De9aa954c55fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://www.w3.org/2000/01/rdf-schema#Container> .
+_:Bd6e94e11X2Da15aX2D4ff1X2D9611X2De9aa954c55fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
+_:Bd6e94e11X2Da15aX2D4ff1X2D9611X2De9aa954c55fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://www.contextdatacloud.org/cmo/ontology/Container> .
+_:Bd6e94e11X2Da15aX2D4ff1X2D9611X2De9aa954c55fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .

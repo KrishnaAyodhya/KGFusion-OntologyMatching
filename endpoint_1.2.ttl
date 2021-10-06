@@ -1,0 +1,2627 @@
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix ns7:   <http://www.w3.org/2002/07/> .
+@prefix cmor:  <http://www.contextdatacloud.org/cmo/resource/> .
+@prefix cmo:   <http://www.contextdatacloud.org/cmo/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix ns10:  <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns3:   <http://localhost:8890/> .
+
+cmor:Turkey  a  cmo:Region .
+
+cmor:LocationConstraint_63
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:Concept_4  a  cmo:MajorConcept .
+
+owl:allValuesFrom  a  rdf:Property .
+
+cmor:LocationConstraint_31
+        a       cmo:LocationConstraint .
+
+owl:disjointWith  a  rdf:Property .
+
+cmo:TimeConstraint  a  owl:Class .
+
+cmor:TimeConstraint_167
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+cmor:LocationConstraint_237
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_27
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Montenegro  a  cmo:Region .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+cmor:LocationConstraint_205
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_135
+        a       cmo:TimeConstraint .
+
+cmor:TimeConstraint_103
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_149
+        a       cmo:LocationConstraint .
+
+cmor:Predicate48  a  cmo:MajorPredicate .
+
+cmor:Concept_29  a  cmo:MajorConcept .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate1  a  cmo:MajorPredicate .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_195
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_117
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+cmor:Predicate16  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_163
+        a       cmo:LocationConstraint .
+
+cmor:Predicate62  a  cmo:MajorPredicate .
+
+rdfdf:sql-varchar-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Concept_43  a  cmo:MajorConcept .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Dallas  a  cmo:Region .
+
+cmor:Madrid  a  cmo:Region .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_131
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_76
+        a       cmo:LocationConstraint .
+
+cmor:Predicate30  a  cmo:MajorPredicate .
+
+cmo:Container  a  owl:Class .
+
+cmor:South_Korea  a  cmo:Region .
+
+cmor:Concept_11  a  cmo:MajorConcept .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_44
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_90
+        a       cmo:LocationConstraint .
+
+cmor:Algeria  a  cmo:Region .
+
+cmor:LocationConstraint_12
+        a       cmo:LocationConstraint .
+
+cmo:refersTo  a  owl:DatatypeProperty .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Zapopan  a  cmo:Region .
+
+cmor:LocationConstraint_218
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_148
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+cmor:Nigeria  a  cmo:Region .
+
+cmor:TimeConstraint_116
+        a       cmo:TimeConstraint .
+
+owl:AnnotationProperty
+        a       rdfs:Class .
+
+cmor:LocationConstraint_232
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_162
+        a       cmo:TimeConstraint .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+cmo:alternativeName  a  owl:DatatypeProperty .
+
+cmor:LocationConstraint_200
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_130
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:Class  a    rdfs:Class .
+
+cmor:Vietnam  a  cmo:Region .
+
+cmor:Predicate29  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_176
+        a       cmo:LocationConstraint .
+
+cmor:Predicate75  a  cmo:MajorPredicate .
+
+cmor:Concept_56  a  cmo:MajorConcept .
+
+cmor:Norway  a  cmo:Region .
+
+cmor:LocationConstraint_89
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_144
+        a       cmo:LocationConstraint .
+
+cmor:Predicate43  a  cmo:MajorPredicate .
+
+cmor:Concept_24  a  cmo:MajorConcept .
+
+cmor:Container_3  a  cmo:Container .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_190
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_57
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_112
+        a       cmo:LocationConstraint .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+cmor:Predicate11  a  cmo:MajorPredicate .
+
+rdfdf:sql-datetime-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Mexico  a  cmo:Region .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_8
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_25
+        a       cmo:LocationConstraint .
+
+owl:equivalentClass  a  rdf:Property .
+
+cmor:Seychelles  a  cmo:Region .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_71
+        a       cmo:LocationConstraint .
+
+cmo:appliesTo  a  owl:ObjectProperty .
+
+cmor:Bosnia_and_Herzegovina
+        a       cmo:Region .
+
+cmo:datasetIsAvailable
+        a       owl:DatatypeProperty .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+cmor:Vienna  a  cmo:Region .
+
+cmor:Belgrade  a  cmo:Region .
+
+cmor:TimeConstraint_129
+        a       cmo:TimeConstraint .
+
+cmo:CMO  a      owl:Class .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+cmor:Finland  a  cmo:Region .
+
+cmor:LocationConstraint_245
+        a       cmo:LocationConstraint .
+
+cmor:San_Jose  a  cmo:Region .
+
+cmor:Zambia  a  cmo:Region .
+
+cmor:LocationConstraint_213
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_143
+        a       cmo:TimeConstraint .
+
+cmo:LocationContextFacet
+        a       owl:Class .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_111
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_189
+        a       cmo:LocationConstraint .
+
+cmor:Predicate88  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_157
+        a       cmo:LocationConstraint .
+
+cmor:Predicate56  a  cmo:MajorPredicate .
+
+cmor:Concept_37  a  cmo:MajorConcept .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+cmor:Namibia  a  cmo:Region .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_125
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate24  a  cmo:MajorPredicate .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_171
+        a       cmo:LocationConstraint .
+
+cmor:Predicate70  a  cmo:MajorPredicate .
+
+cmor:Concept_51  a  cmo:MajorConcept .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_38
+        a       cmo:LocationConstraint .
+
+cmor:Portugal  a  cmo:Region .
+
+cmo:hasValidity  a  owl:ObjectProperty .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Palestinian_Territories
+        a       cmo:Region .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_84
+        a       cmo:LocationConstraint .
+
+cmor:Denmark  a  cmo:Region .
+
+cmor:LocationConstraint_52
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_3
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_20
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmo:hasMajorPredicate
+        a       owl:ObjectProperty .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:SymmetricProperty
+        a       rdfs:Class .
+
+cmor:LocationConstraint_226
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_156
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Bulgaria  a  cmo:Region .
+
+cmor:Predicate8  a  cmo:MajorPredicate .
+
+cmor:TimeConstraint_124
+        a       cmo:TimeConstraint .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_240
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_170
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate69  a  cmo:MajorPredicate .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_138
+        a       cmo:LocationConstraint .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+cmor:Predicate37  a  cmo:MajorPredicate .
+
+cmor:Concept_18  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_184
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate83  a  cmo:MajorPredicate .
+
+cmor:Concept_64  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_106
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_97
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_152
+        a       cmo:LocationConstraint .
+
+cmor:Predicate51  a  cmo:MajorPredicate .
+
+cmor:Concept_32  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_19
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_120
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_65
+        a       cmo:LocationConstraint .
+
+cmor:Concept_6  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_33
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_239
+        a       cmo:LocationConstraint .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+cmor:TimeConstraint_169
+        a       cmo:TimeConstraint .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_207
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_137
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_105
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+cmor:LocationConstraint_221
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_151
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Thailand  a  cmo:Region .
+
+cmor:Predicate3  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_197
+        a       cmo:LocationConstraint .
+
+cmo:hasRank  a  owl:DatatypeProperty .
+
+cmor:LocationConstraint_119
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate18  a  cmo:MajorPredicate .
+
+cmor:Predicate64  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_165
+        a       cmo:LocationConstraint .
+
+cmor:Concept_45  a  cmo:MajorConcept .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+cmor:Germany  a  cmo:Region .
+
+rdfs:seeAlso  a  owl:AnnotationProperty .
+
+cmor:LocationConstraint_133
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_78
+        a       cmo:LocationConstraint .
+
+cmor:Predicate32  a  cmo:MajorPredicate .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+cmor:Concept_13  a  cmo:MajorConcept .
+
+cmor:Bangladesh  a  cmo:Region .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_101
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_46
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Romania  a  cmo:Region .
+
+cmor:LocationConstraint_92
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_14
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_60
+        a       cmo:LocationConstraint .
+
+cmor:Warsaw  a  cmo:Region .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+cmor:Concept_1  a  cmo:MajorConcept .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:priorVersion  a  owl:OntologyProperty , rdf:Property .
+
+cmor:TimeConstraint_118
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_234
+        a       cmo:LocationConstraint .
+
+cmor:Budapest  a  cmo:Region .
+
+cmor:TimeConstraint_164
+        a       cmo:TimeConstraint .
+
+cmor:Mozambique  a  cmo:Region .
+
+cmo:MajorPredicate  a  owl:Class .
+
+cmor:LocationConstraint_202
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_132
+        a       cmo:TimeConstraint .
+
+cmor:Chimalhuacan  a  cmo:Region .
+
+cmor:TimeConstraint_100
+        a       cmo:TimeConstraint .
+
+rdfs:isDefinedBy  a  owl:AnnotationProperty .
+
+cmor:LocationConstraint_178
+        a       cmo:LocationConstraint .
+
+cmor:Predicate77  a  cmo:MajorPredicate .
+
+cmor:Netherlands  a  cmo:Region .
+
+cmor:Concept_58  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_146
+        a       cmo:LocationConstraint .
+
+cmor:Predicate45  a  cmo:MajorPredicate .
+
+cmor:Enipedia_Dataset
+        a       cmo:Dataset .
+
+cmor:Concept_26  a  cmo:MajorConcept .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_192
+        a       cmo:LocationConstraint .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_114
+        a       cmo:LocationConstraint .
+
+cmor:Guatemala  a  cmo:Region .
+
+cmor:LocationConstraint_59
+        a       cmo:LocationConstraint .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+cmor:Predicate13  a  cmo:MajorPredicate .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_160
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Concept_40  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_27
+        a       cmo:LocationConstraint .
+
+cmor:LinkedCrowdsourcedData_Dataset
+        a       cmo:Dataset .
+
+cmor:LocationConstraint_73
+        a       cmo:LocationConstraint .
+
+cmor:Lithuania  a  cmo:Region .
+
+cmor:LocationConstraint_41
+        a       cmo:LocationConstraint .
+
+cmor:Peru  a    cmo:Region .
+
+cmor:Sudan  a   cmo:Region .
+
+cmor:LocationConstraint_247
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Chile  a   cmo:Region .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_215
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_145
+        a       cmo:TimeConstraint .
+
+owl:imports  a  rdf:Property , owl:OntologyProperty .
+
+cmo:hasCMOAddress  a  owl:DatatypeProperty .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:Saudi_Arabia  a  cmo:Region .
+
+cmor:Indonesia  a  cmo:Region .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_113
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+cmo:    a       owl:Ontology .
+
+rdfdf:sql-datetime-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Iceland  a  cmo:Region .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_159
+        a       cmo:LocationConstraint .
+
+cmor:Predicate58  a  cmo:MajorPredicate .
+
+cmor:Concept_39  a  cmo:MajorConcept .
+
+cmor:Bucharest  a  cmo:Region .
+
+cmor:LocationConstraint_127
+        a       cmo:LocationConstraint .
+
+cmor:Taiwan  a  cmo:Region .
+
+cmor:Predicate26  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_173
+        a       cmo:LocationConstraint .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate72  a  cmo:MajorPredicate .
+
+cmor:Concept_53  a  cmo:MajorConcept .
+
+cmor:Barcelona  a  cmo:Region .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:New_Zealand  a  cmo:Region .
+
+cmor:LocationConstraint_86
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_141
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate40  a  cmo:MajorPredicate .
+
+cmor:Concept_21  a  cmo:MajorConcept .
+
+owl:Ontology  a  rdfs:Class .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_54
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_5
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_22
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:Nothing  a  owl:Class .
+
+cmo:containsInformation
+        a       owl:ObjectProperty .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_228
+        a       cmo:LocationConstraint .
+
+cmor:Belarus  a  cmo:Region .
+
+cmor:TimeConstraint_158
+        a       cmo:TimeConstraint .
+
+cmo:hasTimeConstraint
+        a       owl:ObjectProperty .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Switzerland  a  cmo:Region .
+
+cmor:TimeConstraint_126
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_242
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_210
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_140
+        a       cmo:TimeConstraint .
+
+cmor:Predicate39  a  cmo:MajorPredicate .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_186
+        a       cmo:LocationConstraint .
+
+cmor:Predicate85  a  cmo:MajorPredicate .
+
+cmor:Concept_66  a  cmo:MajorConcept .
+
+cmor:Jordan  a  cmo:Region .
+
+cmor:LocationConstraint_108
+        a       cmo:LocationConstraint .
+
+cmor:Sweden  a  cmo:Region .
+
+cmo:TimeInterval  a  owl:Class .
+
+cmor:LocationConstraint_99
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_154
+        a       cmo:LocationConstraint .
+
+cmor:Predicate53  a  cmo:MajorPredicate .
+
+cmor:Concept_34  a  cmo:MajorConcept .
+
+owl:differentFrom  a  rdf:Property .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_122
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_67
+        a       cmo:LocationConstraint .
+
+cmor:Predicate21  a  cmo:MajorPredicate .
+
+cmor:Concept_8  a  cmo:MajorConcept .
+
+cmor:Ukraine  a  cmo:Region .
+
+cmor:Honduras  a  cmo:Region .
+
+cmor:LocationConstraint_35
+        a       cmo:LocationConstraint .
+
+ns10:title  a   owl:AnnotationProperty .
+
+cmor:LocationConstraint_81
+        a       cmo:LocationConstraint .
+
+cmo:intervalTo  a  owl:DatatypeProperty .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Israel  a  cmo:Region .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+cmor:Leon  a    cmo:Region .
+
+cmor:LocationConstraint_209
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_139
+        a       cmo:TimeConstraint .
+
+cmor:TimeConstraint_107
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_223
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_153
+        a       cmo:TimeConstraint .
+
+owl:DeprecatedProperty
+        a       rdfs:Class .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate5  a  cmo:MajorPredicate .
+
+cmor:TimeConstraint_121
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+cmor:LocationConstraint_199
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Cyprus  a  cmo:Region .
+
+cmor:LocationConstraint_167
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate66  a  cmo:MajorPredicate .
+
+cmor:Concept_47  a  cmo:MajorConcept .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_135
+        a       cmo:LocationConstraint .
+
+cmor:Predicate34  a  cmo:MajorPredicate .
+
+cmor:Concept_15  a  cmo:MajorConcept .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_181
+        a       cmo:LocationConstraint .
+
+cmor:Predicate80  a  cmo:MajorPredicate .
+
+cmor:Concept_61  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_103
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_48
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_94
+        a       cmo:LocationConstraint .
+
+cmor:Benin  a   cmo:Region .
+
+owl:TransitiveProperty
+        a       rdfs:Class .
+
+cmor:Canada  a  cmo:Region .
+
+cmor:LocationConstraint_16
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_62
+        a       cmo:LocationConstraint .
+
+cmor:Concept_3  a  cmo:MajorConcept .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_30
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_166
+        a       cmo:TimeConstraint .
+
+cmor:Mexico_City  a  cmo:Region .
+
+cmor:LocationConstraint_236
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_26
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:InverseFunctionalProperty
+        a       rdfs:Class .
+
+cmo:Region  a   owl:Class .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+cmor:Russia  a  cmo:Region .
+
+cmor:Hamburg  a  cmo:Region .
+
+cmor:LocationConstraint_204
+        a       cmo:LocationConstraint .
+
+cmor:Austria  a  cmo:Region .
+
+cmor:TimeConstraint_134
+        a       cmo:TimeConstraint .
+
+cmor:Croatia  a  cmo:Region .
+
+cmor:TimeConstraint_102
+        a       cmo:TimeConstraint .
+
+cmor:Malaysia  a  cmo:Region .
+
+cmor:Paraguay  a  cmo:Region .
+
+cmor:Malta  a   cmo:Region .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate79  a  cmo:MajorPredicate .
+
+cmor:Slovakia  a  cmo:Region .
+
+cmor:Predicate47  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_148
+        a       cmo:LocationConstraint .
+
+cmor:Concept_28  a  cmo:MajorConcept .
+
+cmor:Philippines  a  cmo:Region .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:United_States_of_America
+        a       cmo:Region .
+
+cmor:LocationConstraint_194
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_116
+        a       cmo:LocationConstraint .
+
+cmor:Predicate15  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_162
+        a       cmo:LocationConstraint .
+
+cmor:Predicate61  a  cmo:MajorPredicate .
+
+cmor:Concept_42  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_29
+        a       cmo:LocationConstraint .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+cmor:LocationConstraint_75
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_130
+        a       cmo:LocationConstraint .
+
+cmor:Concept_10  a  cmo:MajorConcept .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_43
+        a       cmo:LocationConstraint .
+
+cmor:Paris  a   cmo:Region .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_11
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_249
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Venezuela  a  cmo:Region .
+
+cmor:LocationConstraint_217
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_147
+        a       cmo:TimeConstraint .
+
+cmor:El_Salvador  a  cmo:Region .
+
+cmor:Macedonia  a  cmo:Region .
+
+cmor:TimeConstraint_115
+        a       cmo:TimeConstraint .
+
+cmor:China  a   cmo:Region .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+cmor:LocationConstraint_231
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_161
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_129
+        a       cmo:LocationConstraint .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate28  a  cmo:MajorPredicate .
+
+rdfdf:sql-nvarchar-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_175
+        a       cmo:LocationConstraint .
+
+cmor:Predicate74  a  cmo:MajorPredicate .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Concept_55  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_88
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_143
+        a       cmo:LocationConstraint .
+
+cmor:Greece  a  cmo:Region .
+
+cmor:Predicate42  a  cmo:MajorPredicate .
+
+cmor:Concept_23  a  cmo:MajorConcept .
+
+cmor:Seattle  a  cmo:Region .
+
+cmor:Container_2  a  cmo:Container .
+
+cmor:LocationConstraint_111
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_56
+        a       cmo:LocationConstraint .
+
+cmor:Hong_Kong  a  cmo:Region .
+
+cmor:Predicate10  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_7
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_24
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Italy  a   cmo:Region .
+
+cmor:LocationConstraint_70
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:Restriction  a  rdfs:Class .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_128
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_244
+        a       cmo:LocationConstraint .
+
+cmor:Serbia  a  cmo:Region .
+
+cmor:South_Africa  a  cmo:Region .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Oman  a    cmo:Region .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_212
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_142
+        a       cmo:TimeConstraint .
+
+cmor:Micronesia  a  cmo:Region .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Nepal  a   cmo:Region .
+
+cmor:TimeConstraint_110
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_188
+        a       cmo:LocationConstraint .
+
+cmor:Predicate87  a  cmo:MajorPredicate .
+
+owl:DataRange  a  rdfs:Class .
+
+cmor:LocationConstraint_156
+        a       cmo:LocationConstraint .
+
+cmor:Predicate55  a  cmo:MajorPredicate .
+
+rdfdf:sql-doubleprecision-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Concept_36  a  cmo:MajorConcept .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_124
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_69
+        a       cmo:LocationConstraint .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate23  a  cmo:MajorPredicate .
+
+cmor:Mexicali  a  cmo:Region .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_170
+        a       cmo:LocationConstraint .
+
+cmo:contains  a  owl:ObjectProperty .
+
+cmor:Concept_50  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_37
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_83
+        a       cmo:LocationConstraint .
+
+owl:AllDifferent  a  rdfs:Class .
+
+cmor:LocationConstraint_51
+        a       cmo:LocationConstraint .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_2
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Chad  a    cmo:Region .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_109
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_225
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_155
+        a       cmo:TimeConstraint .
+
+cmo:hasSparqlEndpointAddress
+        a       owl:DatatypeProperty .
+
+cmor:Predicate7  a  cmo:MajorPredicate .
+
+cmor:Tunisia  a  cmo:Region .
+
+cmor:TimeConstraint_123
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfs:label  a   owl:AnnotationProperty .
+
+rdfdf:sql-varchar-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_169
+        a       cmo:LocationConstraint .
+
+cmor:Predicate68  a  cmo:MajorPredicate .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:Concept_49  a  cmo:MajorConcept .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_137
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate36  a  cmo:MajorPredicate .
+
+cmor:Concept_17  a  cmo:MajorConcept .
+
+cmor:LocationContextFacet_4
+        a       cmo:LocationContextFacet .
+
+cmor:LocationConstraint_183
+        a       cmo:LocationConstraint .
+
+cmor:Laos  a    cmo:Region .
+
+cmor:Predicate82  a  cmo:MajorPredicate .
+
+cmor:Concept_63  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_105
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_96
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_151
+        a       cmo:LocationConstraint .
+
+cmor:Predicate50  a  cmo:MajorPredicate .
+
+cmor:Concept_31  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_18
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-numeric-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_64
+        a       cmo:LocationConstraint .
+
+cmor:Concept_5  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_32
+        a       cmo:LocationConstraint .
+
+cmor:Liechtenstein  a  cmo:Region .
+
+cmor:Berlin  a  cmo:Region .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_238
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_168
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_206
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:TimeConstraint_136
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:TimeConstraint_104
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_220
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_150
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Kiev  a    cmo:Region .
+
+cmor:Predicate49  a  cmo:MajorPredicate .
+
+cmor:Predicate2  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_196
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_118
+        a       cmo:LocationConstraint .
+
+cmor:Predicate17  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_164
+        a       cmo:LocationConstraint .
+
+cmor:Predicate63  a  cmo:MajorPredicate .
+
+cmor:Concept_44  a  cmo:MajorConcept .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_132
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_77
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate31  a  cmo:MajorPredicate .
+
+cmor:Concept_12  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_45
+        a       cmo:LocationConstraint .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_100
+        a       cmo:LocationConstraint .
+
+owl:incompatibleWith  a  owl:OntologyProperty , rdf:Property .
+
+owl:DeprecatedClass  a  rdfs:Class .
+
+cmor:LocationConstraint_91
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_13
+        a       cmo:LocationConstraint .
+
+owl:versionInfo  a  owl:AnnotationProperty , rdf:Property .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+cmor:TimeConstraint_149
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_219
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Bahrain  a  cmo:Region .
+
+cmor:Pakistan  a  cmo:Region .
+
+cmor:TimeConstraint_117
+        a       cmo:TimeConstraint .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_233
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_163
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmo:LocationConstraint
+        a       owl:Class .
+
+cmor:TimeConstraint_131
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_201
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-datetime-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Argentina  a  cmo:Region .
+
+cmor:LocationConstraint_177
+        a       cmo:LocationConstraint .
+
+cmor:Predicate76  a  cmo:MajorPredicate .
+
+cmor:Concept_57  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_145
+        a       cmo:LocationConstraint .
+
+cmor:Predicate44  a  cmo:MajorPredicate .
+
+cmor:Concept_25  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_191
+        a       cmo:LocationConstraint .
+
+cmor:Predicate90  a  cmo:MajorPredicate .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_113
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_58
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate12  a  cmo:MajorPredicate .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+cmor:LocationConstraint_9
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_26
+        a       cmo:LocationConstraint .
+
+cmor:London  a  cmo:Region .
+
+cmor:LocationConstraint_72
+        a       cmo:LocationConstraint .
+
+cmo:WeatherContextFacet
+        a       owl:Class .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_40
+        a       cmo:LocationConstraint .
+
+cmor:Costa_Rica  a  cmo:Region .
+
+cmor:Czech_Republic  a  cmo:Region .
+
+rdfdf:sql-doubleprecision-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_246
+        a       cmo:LocationConstraint .
+
+cmor:Spain  a   cmo:Region .
+
+cmor:LocationConstraint_214
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:TimeConstraint_144
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+cmor:Somalia  a  cmo:Region .
+
+cmor:TimeConstraint_112
+        a       cmo:TimeConstraint .
+
+cmor:Predicate89  a  cmo:MajorPredicate .
+
+cmor:Slovenia  a  cmo:Region .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_158
+        a       cmo:LocationConstraint .
+
+ns7:owl  a      owl:Ontology .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate57  a  cmo:MajorPredicate .
+
+cmor:Concept_38  a  cmo:MajorConcept .
+
+cmor:Morocco  a  cmo:Region .
+
+cmor:LocationConstraint_126
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate71  a  cmo:MajorPredicate .
+
+cmor:Predicate25  a  cmo:MajorPredicate .
+
+cmor:Concept_52  a  cmo:MajorConcept .
+
+owl:distinctMembers  a  rdf:Property .
+
+cmor:LocationConstraint_172
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_39
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:Libya  a   cmo:Region .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+cmor:LocationConstraint_85
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_140
+        a       cmo:LocationConstraint .
+
+cmor:Concept_20  a  cmo:MajorConcept .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_53
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_4
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_21
+        a       cmo:LocationConstraint .
+
+cmor:Hungary  a  cmo:Region .
+
+cmor:Australia  a  cmo:Region .
+
+cmor:LocationConstraint_227
+        a       cmo:LocationConstraint .
+
+cmor:United_Arab_Emirates
+        a       cmo:Region .
+
+cmor:TimeConstraint_157
+        a       cmo:TimeConstraint .
+
+cmor:Predicate9  a  cmo:MajorPredicate .
+
+cmor:TimeConstraint_125
+        a       cmo:TimeConstraint .
+
+cmor:Ireland  a  cmo:Region .
+
+cmor:LocationConstraint_241
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_171
+        a       cmo:TimeConstraint .
+
+cmor:Iran  a    cmo:Region .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmo:isLocatedAt  a  owl:ObjectProperty .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_139
+        a       cmo:LocationConstraint .
+
+cmor:Guadalajara  a  cmo:Region .
+
+cmor:Predicate38  a  cmo:MajorPredicate .
+
+cmor:Concept_19  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_185
+        a       cmo:LocationConstraint .
+
+cmor:Predicate84  a  cmo:MajorPredicate .
+
+cmor:Concept_65  a  cmo:MajorConcept .
+
+rdfdf:sql-date-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_107
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_98
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_153
+        a       cmo:LocationConstraint .
+
+cmor:Predicate52  a  cmo:MajorPredicate .
+
+cmor:Concept_33  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_121
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_66
+        a       cmo:LocationConstraint .
+
+cmor:Predicate20  a  cmo:MajorPredicate .
+
+cmor:Concept_7  a  cmo:MajorConcept .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_34
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_80
+        a       cmo:LocationConstraint .
+
+cmor:Poland  a  cmo:Region .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+owl:OntologyProperty  a  rdfs:Class .
+
+cmor:LocationConstraint_208
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_138
+        a       cmo:TimeConstraint .
+
+cmo:intervalFrom  a  owl:DatatypeProperty .
+
+cmo:NetworkContextFacet
+        a       owl:Class .
+
+cmor:Estonia  a  cmo:Region .
+
+cmo:refersToDataset  a  owl:ObjectProperty .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:TimeConstraint_106
+        a       cmo:TimeConstraint .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_222
+        a       cmo:LocationConstraint .
+
+cmor:Winnipeg  a  cmo:Region .
+
+cmor:TimeConstraint_152
+        a       cmo:TimeConstraint .
+
+[ a       owl:Class ] .
+
+cmor:San_Francisco  a  cmo:Region .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+ns10:description  a  owl:AnnotationProperty .
+
+cmor:Predicate4  a  cmo:MajorPredicate .
+
+cmo:ContextFacet  a  owl:Class .
+
+cmor:TimeConstraint_120
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_198
+        a       cmo:LocationConstraint .
+
+cmor:Predicate19  a  cmo:MajorPredicate .
+
+cmor:Afghanistan  a  cmo:Region .
+
+cmor:LocationConstraint_166
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Predicate65  a  cmo:MajorPredicate .
+
+cmor:Concept_46  a  cmo:MajorConcept .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_134
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_79
+        a       cmo:LocationConstraint .
+
+cmor:Predicate33  a  cmo:MajorPredicate .
+
+cmor:OpenMobileNetwork_Dataset
+        a       cmo:Dataset .
+
+cmor:Concept_14  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_180
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:Concept_60  a  cmo:MajorConcept .
+
+cmor:Zimbabwe  a  cmo:Region .
+
+cmor:LocationConstraint_102
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_47
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-date-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_93
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_15
+        a       cmo:LocationConstraint .
+
+cmor:Chicago  a  cmo:Region .
+
+cmor:LocationConstraint_61
+        a       cmo:LocationConstraint .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+cmor:Concept_2  a  cmo:MajorConcept .
+
+cmor:Belgium  a  cmo:Region .
+
+cmor:Rome  a    cmo:Region .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmo:hasLocationConstraint
+        a       owl:ObjectProperty .
+
+cmor:TimeConstraint_119
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_235
+        a       cmo:LocationConstraint .
+
+cmor:Egypt  a   cmo:Region .
+
+cmor:TimeConstraint_165
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_203
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_133
+        a       cmo:TimeConstraint .
+
+cmor:Latvia  a  cmo:Region .
+
+owl:someValuesFrom  a  rdf:Property .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:TimeConstraint_101
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_179
+        a       cmo:LocationConstraint .
+
+cmor:Predicate78  a  cmo:MajorPredicate .
+
+cmor:Concept_59  a  cmo:MajorConcept .
+
+owl:inverseOf  a  rdf:Property .
+
+cmor:Kiribati  a  cmo:Region .
+
+cmor:LocationConstraint_147
+        a       cmo:LocationConstraint .
+
+cmor:Predicate46  a  cmo:MajorPredicate .
+
+cmor:Concept_27  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_193
+        a       cmo:LocationConstraint .
+
+owl:backwardCompatibleWith
+        a       owl:OntologyProperty , rdf:Property .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+cmor:LocationConstraint_115
+        a       cmo:LocationConstraint .
+
+cmor:Burma  a   cmo:Region .
+
+ns3:sparql  a   sd:Service .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate14  a  cmo:MajorPredicate .
+
+cmor:Syria  a   cmo:Region .
+
+cmor:Moldova  a  cmo:Region .
+
+cmor:LocationConstraint_161
+        a       cmo:LocationConstraint .
+
+cmor:Predicate60  a  cmo:MajorPredicate .
+
+cmor:Concept_41  a  cmo:MajorConcept .
+
+owl:DatatypeProperty  a  rdfs:Class .
+
+owl:Thing  a    owl:Class .
+
+cmor:LocationConstraint_28
+        a       cmo:LocationConstraint .
+
+cmor:Fiji  a    cmo:Region .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_74
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_42
+        a       cmo:LocationConstraint .
+
+owl:cardinality  a  rdf:Property .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Japan  a   cmo:Region .
+
+cmor:LocationConstraint_10
+        a       cmo:LocationConstraint .
+
+cmor:Luxembourg  a  cmo:Region .
+
+cmor:LocationConstraint_248
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_216
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_146
+        a       cmo:TimeConstraint .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:FunctionalProperty
+        a       rdfs:Class .
+
+cmor:TimeConstraint_114
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_230
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_160
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+cmor:Predicate59  a  cmo:MajorPredicate .
+
+cmor:LocationConstraint_128
+        a       cmo:LocationConstraint .
+
+cmor:Predicate27  a  cmo:MajorPredicate .
+
+rdfdf:sql-datetime-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate73  a  cmo:MajorPredicate .
+
+owl:ObjectProperty  a  rdfs:Class .
+
+cmor:LocationConstraint_174
+        a       cmo:LocationConstraint .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+cmor:Concept_54  a  cmo:MajorConcept .
+
+cmor:India  a   cmo:Region .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_87
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_142
+        a       cmo:LocationConstraint .
+
+cmor:Predicate41  a  cmo:MajorPredicate .
+
+cmor:Concept_22  a  cmo:MajorConcept .
+
+cmor:Container_1  a  cmo:Container .
+
+cmor:LocationConstraint_110
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_55
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmo:EnvironmentalContextFacet
+        a       owl:Class .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_6
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_23
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:sql-nvarchar-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:TimeConstraint_159
+        a       cmo:TimeConstraint .
+
+cmor:LocationConstraint_229
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+cmor:TimeConstraint_127
+        a       cmo:TimeConstraint .
+
+cmo:hasMajorConcept  a  owl:ObjectProperty .
+
+cmor:Kazakhstan  a  cmo:Region .
+
+cmor:LocationConstraint_243
+        a       cmo:LocationConstraint .
+
+cmo:Validity  a  owl:Class .
+
+cmor:LocationConstraint_211
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_141
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_187
+        a       cmo:LocationConstraint .
+
+cmor:Predicate86  a  cmo:MajorPredicate .
+
+cmor:Concept_67  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_109
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_155
+        a       cmo:LocationConstraint .
+
+cmo:Dataset  a  owl:Class .
+
+cmor:Predicate54  a  cmo:MajorPredicate .
+
+cmor:Concept_35  a  cmo:MajorConcept .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_123
+        a       cmo:LocationConstraint .
+
+cmor:Ethiopia  a  cmo:Region .
+
+cmor:LocationConstraint_68
+        a       cmo:LocationConstraint .
+
+cmor:Predicate22  a  cmo:MajorPredicate .
+
+cmor:Concept_9  a  cmo:MajorConcept .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_36
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-varchar-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_82
+        a       cmo:LocationConstraint .
+
+cmor:United_Kingdom  a  cmo:Region .
+
+cmor:LocationConstraint_50
+        a       cmo:LocationConstraint .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_1
+        a       cmo:LocationConstraint .
+
+owl:sameAs  a   rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Kosovo  a  cmo:Region .
+
+cmor:Colombia  a  cmo:Region .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+owl:onProperty  a  rdf:Property .
+
+cmor:TimeConstraint_108
+        a       cmo:TimeConstraint .
+
+rdfs:comment  a  owl:AnnotationProperty .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+cmor:LocationConstraint_224
+        a       cmo:LocationConstraint .
+
+cmor:TimeConstraint_154
+        a       cmo:TimeConstraint .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Predicate6  a  cmo:MajorPredicate .
+
+cmor:TimeConstraint_122
+        a       cmo:TimeConstraint .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+cmo:MajorConcept  a  owl:Class .
+
+owl:hasValue  a  rdf:Property .
+
+cmor:Georgia  a  cmo:Region .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+cmor:LocationConstraint_168
+        a       cmo:LocationConstraint .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+cmor:Predicate67  a  cmo:MajorPredicate .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:Concept_48  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_136
+        a       cmo:LocationConstraint .
+
+cmor:Predicate35  a  cmo:MajorPredicate .
+
+cmor:France  a  cmo:Region .
+
+cmor:Concept_16  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_182
+        a       cmo:LocationConstraint .
+
+cmor:Predicate81  a  cmo:MajorPredicate .
+
+cmor:Concept_62  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_104
+        a       cmo:LocationConstraint .
+
+cmor:LocationConstraint_49
+        a       cmo:LocationConstraint .
+
+cmo:CMOAddress  a  owl:Class .
+
+cmor:Sint_Maarten  a  cmo:Region .
+
+cmor:LocationConstraint_95
+        a       cmo:LocationConstraint .
+
+cmor:Brazil  a  cmo:Region .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+cmor:LocationConstraint_150
+        a       cmo:LocationConstraint .
+
+cmor:Concept_30  a  cmo:MajorConcept .
+
+cmor:LocationConstraint_17
+        a       cmo:LocationConstraint .

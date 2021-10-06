@@ -1,0 +1,5 @@
+<http://yago-knowledge.org/resource/Animated_cartoon>
+        <related To>  "http://dbpedia.org/ontology/Cartoon" .
+
+<http://yago-knowledge.org/resource/Documentary_film>
+        <related To>  "http://dbpedia.org/ontology/Document" .

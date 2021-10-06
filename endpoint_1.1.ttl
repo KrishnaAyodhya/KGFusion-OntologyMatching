@@ -1,0 +1,2739 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://harvard.eagle-i.net/i/0000012a-2517-5eac-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-10af-76df-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000149-5d41-c140-f272-7ab480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-d2e5-7f0e-5df2-764380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-ea4c-25a8-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-a1ae-d13d-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8b11-95c4-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000135-5ef4-6252-be1e-73c480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-ba7e-6c16-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014e-4fcd-ac06-cd80-fb2e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-3055-9735-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cec-74c7-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-8f58-1b23-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-90ed-968a-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-251a-0f55-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8aef-c67a-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-25bf-723d-f5ed-943080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-de22-3481-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-2ba0-1beb-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c5-c9aa-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2020-03-06T19:40:09.476-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://harvard.eagle-i.net/i/0000013a-d73f-c335-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000146-866e-9299-3e27-e08b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-9019-fb31-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://harvard.eagle-i.net/i/00000139-b5d2-b0ac-79a7-f3e280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-356b-7daf-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-c225-5883-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000163-1cf8-31d3-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-8c8e-2751-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-2003-0fdb-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-021e-7ba5-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-1ef7-4f0f-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-05ca-9930-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-eb2a-558a-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-a1e7-8ee1-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2513-f2b9-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-6789-c2b1-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000154-5329-b172-2337-4cc680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-5b5f-0d82-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-e19b-47dc-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-598d-bb26-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000027>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012a-2518-2a03-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-742a-4480-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-c226-ea91-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8681-d7b3-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-abdc-91b1-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://harvard.eagle-i.net/i/00000131-aebb-cfbf-56fc-ea9380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000156-325f-b616-ba90-493d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-4d51-590e-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c7-c704-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-58c9-1cc6-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-58a2-d66f-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cef-0426-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-251a-109c-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-0eae-826f-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-2521-371a-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000179-66ef-9a7b-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014e-b12d-776e-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-f908-1ab8-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f627-f2e4-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000a4>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000163-031f-6165-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-adfa-8378-02c0-2b6880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5d8d-bfb7-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-355d-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-08d5-7778-b69f-87db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8af1-cdeb-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-2d27-fa0f-5088-2eef80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000012c-7507-46ea-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-04f7-46a9-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-e277-ebf6-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-1c7a-2d82-a870-ad6980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000152-ad9e-c903-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-0953-2cbd-7afa-b49880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-973d-e1e1-3b03-f22380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-158b-bcbe-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-796e-b51b-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-251a-47ea-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cee-1f83-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2517-1e56-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-6e39-e1dd-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014e-4fce-2c9b-cd80-fb2e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-07fc-5e60-b69f-87db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://harvard.eagle-i.net/i/00000131-6cee-6cd5-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-f067-7260-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-eb29-b206-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000b7>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000141-0eb3-f206-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-29fe-edc7-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-2525-f84d-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-9174-ccec-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-737a-853f-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-e160-b2df-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-dfe9-b2d3-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-a165-d487-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-66b1-4402-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-3e39-68a3-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-0923-c055-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-4236-8aa2-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013f-5d01-c7b2-4d79-320b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000145-e17e-6dc5-065d-5f1380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-8f58-96d8-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/00000151-69ca-d47f-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-86ba-9a89-56fc-ea9380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-6e61-539a-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-0225-9d43-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000016f-8b1b-49d3-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-abdc-2df3-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014f-b7af-5cbd-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2511-4709-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://harvard.eagle-i.net/i/0000013a-79a9-6a96-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013c-fd67-a2a2-ea7a-a3a980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f626-97d7-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-d728-1a96-8a1b-bf0e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-9320-15f7-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://harvard.eagle-i.net/i/00000170-b272-7eaf-c343-cba080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2020-03-06T20:45:39.423-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://harvard.eagle-i.net/i/00000170-b272-7eaf-c343-cba080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-07-28T11:02:27.427-04:00"^^xsd:dateTime .
+
+<http://harvard.eagle-i.net/i/00000130-0923-fadc-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-d2ab-95f6-8a1b-bf0e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-c5ae-307c-8daf-addd80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f685-e3d7-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000156-3260-9073-ba90-493d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-dd28-f930-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-1cd4-98a3-7afa-b49880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-0b79-86c5-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015c-d02f-7f03-5bbd-817880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9c80-8cac-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-c6a6-c891-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-7bb9-7c82-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016b-0974-a570-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-fe4a-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c3-35eb-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015d-8043-9882-f02c-850280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000012f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000016>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c3-419c-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000159-9075-2fc7-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000145-4283-e097-97c6-8e3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-4b3f-fea1-4d8e-943b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-c010-55fc-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013f-0fc1-7ca6-4d79-320b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-c9c9-ee17-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-b8ed-f835-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-0d83-c50d-46d7-c3f080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://harvard.eagle-i.net/i/00000159-6fe3-b181-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-06c5-624d-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-ba7d-9b41-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000008d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012e-7383-a286-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-ec31-62f7-89f9-43eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000149>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000013a-88bd-8504-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000000f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000139-4e76-e27d-4d8e-943b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000153-c38c-6a85-1a99-2c2880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-e5df-e7ae-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-24ab-cd55-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c2-d645-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f67c-3f1f-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-0bba-ae6f-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000156-dc18-e4f2-ba90-493d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2517-330d-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2519-b60a-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-aad7-95a5-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013d-a1e5-7109-67e6-30e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015d-8049-5673-f02c-850280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000145-6bc6-8520-065d-5f1380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000136-bc0a-30bc-0fda-35d680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-a578-2a6f-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-7d67-5202-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2513-5bde-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-d540-a85d-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-d728-568f-8a1b-bf0e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-ec0c-4c22-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-cfce-ca8b-f7ea-026780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5d8d-d001-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2513-16dd-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250e-55b9-5617-794280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000139-928e-e670-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-9d61-83cf-b977-103480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014f-8a03-1d21-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-8fb4-a7f3-56fc-ea9380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-6a6b-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-358b-a521-550e-f59280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014e-bc29-70c8-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-2035-50d8-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-9d63-1b73-b977-103480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-fefd-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-572c-be6a-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-7188-86c9-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-ecf3-c687-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-5724-4c50-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6ced-f5a3-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000112>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000013b-66b5-3854-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8642-4918-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-1d4a-3759-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f683-ac4d-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-218d-f525-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2519-62c4-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000163-1cf8-df32-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6ced-317d-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-d740-111c-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-0d9b-7ec5-46d7-c3f080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014e-21ea-03b4-ad81-f64b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cec-b126-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-b990-06ba-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015f-53c1-4063-2d14-7c7980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-9647-a27c-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-6732-6088-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8640-d0dd-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-7934-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://harvard.eagle-i.net/i/0000012e-5910-5978-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-7a13-118b-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ef0-934e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000010b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000013a-6bef-df56-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-88b7-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014c-e81f-59c6-2820-383c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-1dc8-e7b7-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-4cd6-ed51-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-ec13-7fe7-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+<http://harvard.eagle-i.net/i/00000164-f745-1712-60f6-3e5480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-7f16-d648-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8682-5d3c-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000170-7d98-a91e-d0a7-135d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-dad1-c019-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-9623-c747-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-fbb8-5617-794280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000130-1dc8-2f74-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ee4-a83e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-7970-8cac-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-0cdf-0222-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-9cd5-a2ef-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-aa01-4344-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-3765-8be8-4742-5e9880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-8558-5bf6-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000135-3a7d-7aa3-0fb7-ab1580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013d-6520-115f-67e6-30e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-fd4b-9477-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000125>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000015a-ec08-8507-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9172-e662-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-e503-6328-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-9322-02d7-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-60a9-e6f4-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-9950-6f27-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-2a2d-73e3-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8aeb-aee8-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000083>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000138-76f1-d210-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000159-9076-2a39-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000011e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012e-c0d8-4ad1-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-c5ac-d398-8daf-addd80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-2518-a8e2-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-33d3-af20-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-de22-ba71-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-34b3-e041-a870-ad6980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-a37d-09c9-f97a-7b7880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000146-866c-ad50-3e27-e08b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-0d5f-a344-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2517-5398-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000159-90cc-2742-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-c2f3-6fb1-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-590f-b88e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-db90-5617-794280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000130-0459-fb10-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-064a-cbfe-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-01e9-1f0c-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015f-b5f0-48ac-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-09aa-34d2-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6ced-14ac-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-db36-e8cd-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015f-b5ef-6f15-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-1a56-c8b2-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-1469-012e-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-6b0c-ea02-5088-2eef80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8641-8c4b-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-de67-6cb0-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-73a3-9aa9-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000132-a6e2-77a2-b57f-353780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5872-a3c9-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015c-d029-425b-5bbd-817880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-794f-1dd9-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-86a9-044a-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000153-c38d-02ae-1a99-2c2880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-3b7c-6dd2-4742-5e9880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-742d-10c2-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-d2e9-838e-5df2-764380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-3607-9a2d-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000096>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012e-9c80-f5da-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014c-9adf-ec0b-2820-383c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-1d4a-8484-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-991f-735f-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://harvard.eagle-i.net/i/0000012d-8054-5dec-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-595d-154d-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-60ae-a961-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-c06a-3ecc-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://harvard.eagle-i.net/i/00000130-7a0d-8599-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-68de-0a05-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8684-b50c-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6c29-435f-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-59aa-c4b4-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2514-acbc-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-66ab-be75-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-0989-678c-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014a-f48c-6dd7-46d7-c3f080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-b735-587e-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c3-45e9-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-25bf-7063-f5ed-943080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-2501-cbfc-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-d0e9-b1d5-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-a85f-4223-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-fb86-890a-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-3df9-9984-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c4-950a-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000152-ada9-83d0-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8682-cbcf-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-c96f-3104-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c2-cd29-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00bf-a076-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-2e68-90b2-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-764b-cf1f-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cec-15f9-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-a0c3-dbf9-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000154-967f-bd9e-2337-4cc680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-064a-9806-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-ba7e-e2d8-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ee1-ac2f-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c6-13b0-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9657-1571-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-a5c5-1c6e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-90e6-b751-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://harvard.eagle-i.net/i/00000169-53c4-1589-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-58a2-84be-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-7429-f87a-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-c5aa-4688-8daf-addd80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-307a-9304-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2519-7381-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-e4c3-87aa-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-aad6-97e4-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-4542-02d4-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ee2-347e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-780f-e754-f7ea-026780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013c-2508-089f-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-99b0-17cc-b977-103480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000160-c7b5-0e02-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000136-2c1d-0b3f-b67d-13e980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-64ed-7e3a-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015d-36d9-359b-5bbd-817880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-1ffb-681e-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-614a-716a-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-1a5e-ccc3-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-71ed-850f-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-cc93-524a-a061-4a6580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-0224-7754-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-d736-612d-8a1b-bf0e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-ee96-1f50-8daf-addd80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-59ab-38e3-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-a0c3-8d12-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000153-be93-c340-1a99-2c2880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-0618-a782-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-0517-fc54-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000160-c7b4-5a7c-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013f-ce41-be67-8282-09bb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-729f-0204-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ded-cd93-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://harvard.eagle-i.net/i/0000013d-6a01-69d7-67e6-30e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-3e81-f112-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-26f8-babd-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000072>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012a-2517-1d76-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-aafe-dacc-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014f-8a03-79df-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-cfec-a0b4-f7ea-026780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-02d7-bc28-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-0b78-94a9-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-1466-39db-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-899a-bec4-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2513-ea01-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-3da9-5fea-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-53fb-53d3-9072-1e4280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5e71-f221-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-2451-ef2d-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-6145-ff2c-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f686-8145-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-a505-bbfb-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://harvard.eagle-i.net/i/00000131-6ced-9b14-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-259e-328b-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-fb8e-faa5-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-59aa-dd70-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-917e-a496-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ee3-8cd1-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8683-713e-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-32eb-bb28-f249-7ef280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250c-9d68-5617-794280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000138-767b-3006-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8aee-1740-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-8c91-a744-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000163-735f-7328-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-34fc-2f9b-550e-f59280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000163-031f-f79d-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000163-1c88-c3ed-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-1d2e-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014a-f471-dee5-46d7-c3f080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-605f-a061-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-244a-41a2-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/00000138-bec2-828d-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000039>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ded-369a-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-ddfe-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-b9a1-c055-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-7d4d-ca48-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-1048-37f1-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-2413-3482-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-1e11-2665-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-63bc-7947-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cef-5f1d-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000b6>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012a-2516-a24f-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5e71-4576-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-66b4-caaf-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5964-64e4-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000162-68e7-d777-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5d57-c3b3-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://harvard.eagle-i.net/i/0000012e-a593-6698-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-0b7a-436e-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-7f82-a829-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-73ad-f50e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f680-f058-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-3d4a-8a5d-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-2b0d-d62b-4d8e-943b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-42ad-1e5b-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000163-1cf9-489e-1ce3-887a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-0903-a472-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-8971-f4f7-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-672d-7863-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-599f-6387-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000af>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000014b-55da-7dd4-4742-5e9880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-080f-90cc-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-ae4b-9b70-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-f8e5-bc93-b69f-87db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000148-3d0e-7aa9-6889-6c3880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-fdc7-9955-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://harvard.eagle-i.net/i/0000013f-e3dd-c6ab-8282-09bb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c2-d32f-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-9932-49bd-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-60ab-3b3b-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-76a9-35fb-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5964-cb42-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000c9>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000131-6cef-1a9f-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-6df2-dd0d-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-8067-0a2e-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-cc93-e833-a061-4a6580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://harvard.eagle-i.net/i/00000168-e35c-c8a3-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .
+
+<http://harvard.eagle-i.net/i/00000156-3258-fd3a-ba90-493d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://harvard.eagle-i.net/i/0000015d-f70c-5e41-e094-9e6580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-bc76-45cd-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2020-03-06T19:40:10.548-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-05:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://harvard.eagle-i.net/i/0000012e-73aa-79c9-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-dd27-a597-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000147-1d16-5950-3e27-e08b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-7d4e-5570-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000152-17bd-ca26-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-7495-a840-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2513-a96f-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-251a-46d2-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000145-fc00-004e-065d-5f1380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000155-54a7-5933-2337-4cc680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013d-8d75-f390-67e6-30e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-34fc-7103-550e-f59280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-26e4-9e39-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-ea68-5f8d-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-3d49-bf1f-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000147-1d17-2f3c-3e27-e08b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://harvard.eagle-i.net/i/00000139-0161-408a-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8685-36c2-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-5762-f0fd-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-ea77-ee6d-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000015>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000151-a1e7-ff19-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000147-8dda-599d-6889-6c3880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-d2c1-b715-8a1b-bf0e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-c194-41a5-02c0-2b6880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-e5d2-5828-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-b966-aeb7-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-26e5-05f5-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-bbbc-3b40-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014c-9adc-7f2f-2820-383c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000148>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000015a-3f4f-f6f4-9935-41f280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000000e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012e-5884-2a9e-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-5f43-39e2-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-353c-63ef-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f5d1-46a9-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6ceb-a7ef-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2518-e67d-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000169-eedb-f421-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-0e83-70c8-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000173-825a-2602-ecef-8dcf80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-6eaf-8032-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000012e-9768-3010-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-24e4-6f75-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6ced-b4af-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-ffa1-3edb-89f9-43eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-00ea-9c98-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-babf-9e17-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-68d1-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-6ad8-dfd8-5088-2eef80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-01e8-8ac6-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000028>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000013e-a8d2-594a-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-24e3-dbb2-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-c91a-a360-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-7a1c-da75-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-b4c2-e718-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016c-f8c2-14e4-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2020-03-06T19:40:10.789-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://harvard.eagle-i.net/i/0000016e-f680-626c-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-b662-0e3d-79a7-f3e280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-127f-5152-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-27e9-d612-4742-5e9880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000153-c38c-b1ff-1a99-2c2880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016d-64ab-3dea-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-6d24-7540-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000136-2c1d-9e33-b67d-13e980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-ae11-cadd-02c0-2b6880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-4858-1cec-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-ec9f-fc07-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-8a0b-a7f3-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-fd13-4a3a-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-ff9f-dd21-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000009f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000a5>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012d-dd83-2ab1-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-fe41-f09b-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-2ce8-4ba9-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-24b5-743c-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000012e-72fb-90a1-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-c9cb-0cbd-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f623-e67b-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-fd14-001d-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-10ae-b5ec-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-0ebe-16a3-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-4b81-4a91-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cec-9096-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-a897-d0c8-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://harvard.eagle-i.net/i/0000012c-7460-9308-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2515-c8a8-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-9554-a59b-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-97a8-74ad-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-edfc-76b7-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-69c1-afc7-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-804e-f9d8-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-ae4c-319e-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000149-c96c-0a9d-f272-7ab480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-0d1d-72e2-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-1c95-2194-a870-ad6980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-06f2-9217-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f67f-db01-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5882-a9ee-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-e410-6add-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000170-c634-d60f-e2cf-d5eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-97a9-1a39-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-1ec7-6d21-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-064b-01b8-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-0ea7-7b2d-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9742-0267-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-6cc9-6741-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-051e-4d26-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-59cc-dd81-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f67e-fb89-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2514-abf7-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000124>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000150-1ef7-ca56-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-764d-6c70-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2516-0e2c-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-cca6-d12a-f998-7fdb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000142-b407-8927-89f9-43eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f5ff-c01a-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-4ec2-d53b-550e-f59280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-8b0a-ec5c-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2516-bbc6-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-66b5-9c3b-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-251a-2c49-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014f-b7b1-ea2a-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-97ac-dc29-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-d2af-ccd2-5df2-764380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-158f-56dd-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-6035-8ed2-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000011d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000141-0eb6-af7a-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-7d54-cf20-7da9-2fb080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://harvard.eagle-i.net/i/00000139-b661-5c67-79a7-f3e280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2518-2aab-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-8064-ae42-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014e-4fc8-779e-cd80-fb2e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013c-2507-c236-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-f870-110f-b69f-87db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-06f1-9eec-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-7fc5-1e6d-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-4d50-b43e-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000159-6fe4-17d8-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-4cbf-0aa4-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-855e-81a5-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-c088-2c0e-cb22-be8c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000007b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000015d-f70b-d70f-e094-9e6580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-e277-b85e-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000137>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000015e-29bb-1b8a-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-4d0a-4b3d-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012b-00c4-1678-db6e-7a3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-09fc-31f6-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-e192-3059-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-3e65-e292-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-768c-075f-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000146-866e-e820-3e27-e08b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2512-1c30-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-4e76-b13f-4d8e-943b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-97ac-6a62-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-3c50-a63a-6d7a-cc8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-fe71-bba7-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014c-75b2-30f3-3d5c-94ff80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000095>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000013b-3d4a-43b8-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2511-ea5e-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000159-90cc-fcc8-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014a-eefb-f6ac-46d7-c3f080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000132-a641-b4db-b57f-353780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-06aa-ac54-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9c1b-c205-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000144-c137-07be-2eea-040b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://harvard.eagle-i.net/i/0000012e-020e-6f9f-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-2590-3840-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-c96d-0e75-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-598d-58e7-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015c-c165-cb8e-5bbd-817880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000135-342c-bcef-0fb7-ab1580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250d-ab48-5617-794280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000015e-aad8-6fda-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-76f5-a4c3-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2515-c978-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-c7a9-c794-a061-4a6580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000100>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000131-6cee-3a1b-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9cab-a806-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-25ad-8630-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000159-90ca-6a1d-644d-df1280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2513-da5a-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-89fb-6b88-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-30fb-b2b7-a870-ad6980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013c-ca33-da18-ea7a-a3a980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000136-c634-8ddc-0fda-35d680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-3e29-a71d-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-5404-1326-9072-1e4280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-ec17-ec3a-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-55da-acb6-4742-5e9880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000015e-aad8-0ed2-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-757a-116d-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2516-ac16-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2518-e726-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-e49e-b539-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://harvard.eagle-i.net/i/00000178-c6a6-1b16-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5deb-e552-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000132-a645-2853-b57f-353780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-97a7-9efb-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/00000142-4e4b-740e-89f9-43eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-d234-56de-8a1b-bf0e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-a0c3-287f-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000154-3e86-edf6-2337-4cc680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-a505-8989-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-745a-8b61-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-6576-d5af-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-10a4-7b27-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-654c-77c1-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000113>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000014e-4fc8-cb9d-cd80-fb2e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-fe6f-3663-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-31da-37f8-4742-5e9880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-fb87-ccad-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-b3cb-2c96-56fc-ea9380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000012c-742d-b8dd-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        <http://purl.org/dc/terms/contributor>
+                <http://harvard.eagle-i.net/i/00000170-b272-7eaf-c343-cba080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2020-03-06T19:46:41.414-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://harvard.eagle-i.net/i/00000170-b272-7eaf-c343-cba080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2020-03-06T19:46:41.414-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-04:00"^^xsd:dateTime
+                ] .
+
+<http://harvard.eagle-i.net/i/0000013d-6548-eb42-67e6-30e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-edf3-89a5-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-7b85-fc62-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015a-3f51-93d4-9935-41f280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000071>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000016e-f688-bea5-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-e173-58e7-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-dd17-cff4-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-209d-1db0-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-79428000010c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000136-c635-7f4c-0fda-35d680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-5d78-458b-e883-b37180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-991f-3dae-b977-103480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000012e-59cc-a2a8-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000154-532a-2edf-2337-4cc680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://harvard.eagle-i.net/i/0000016f-10ad-10cc-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://harvard.eagle-i.net/i/0000012c-e74e-5c50-2162-17a280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000149-1a1b-8a84-f272-7ab480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-dd48-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012c-7441-ccb2-c437-ff0b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-0b78-1a49-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012f-e502-df2e-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-8e60-bd1d-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-e108-5956-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-133b-9f05-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-a83a-4431-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-ee02-4477-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013d-7df2-9eaa-67e6-30e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-4f2d-a6e5-4d8e-943b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-9321-9969-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-6530-2732-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2518-fbb1-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-a885-068f-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-2515-c7d4-5617-794280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://harvard.eagle-i.net/i/00000139-db2e-5be4-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-ae10-926e-02c0-2b6880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014f-b7b0-c631-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-6ace-169a-5088-2eef80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013f-538d-1b16-4d79-320b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000084>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012e-5e72-1150-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-9c6e-9708-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cec-f92d-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013b-9502-c7bb-e81d-064c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-7c04-279c-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-764c-b6cb-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000151-8c91-775b-6771-1ce080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000137-b800-9249-d807-77a880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-c594-c70a-8daf-addd80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012c-bc98-f3e1-02c0-2b6880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-90e4-4025-772b-d9de80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-795d-0802-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-201b-c4b8-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-6def-f231-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-d1db-550a-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012d-a579-bd09-4882-b08d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000150-1a5e-80ca-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5873-6cc8-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-795f-1e6c-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000145-4284-1d6d-97c6-8e3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013e-a862-56df-8a53-38db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000ae>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000013e-5701-7bb1-7db7-114480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000161-0520-1590-ac9b-d30f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015b-c5a1-917c-8daf-addd80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-58aa-3f30-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000145-4279-23ac-97c6-8e3f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-070a-c913-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5ee3-0de6-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000148-1898-e20b-6889-6c3880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-1cbe-b829-7afa-b49880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-9322-64a5-f016-703c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000139-db37-c08a-5928-d1b380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-6cec-da64-75a1-b5a380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-7942800000c8>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/00000150-064a-2520-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014c-c870-4ddb-2820-383c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-918a-0dae-1971-4f2080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-66d2-5bb6-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000130-0900-42cd-de5a-673e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-aad7-0576-1e8e-839780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-5e65-1970-55da-381e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016e-f625-98c5-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012e-0fe3-cc25-b2b9-4d8780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014c-9adc-2c18-2820-383c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016a-97a7-2d95-8c78-3bc480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-d740-4f4a-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000171-5f7c-eb9c-e2cf-d5eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000141-127c-6f58-5964-1c2d80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://harvard.eagle-i.net/i/00000168-29fb-3664-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000168-e341-9be5-fefc-baf380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014b-a37b-9b81-f97a-7b7880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014a-eefc-4f31-46d7-c3f080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000142-b408-2092-89f9-43eb80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000131-2035-259f-6a45-990480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000138-ecf3-64d9-e17d-0fd180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://harvard.eagle-i.net/i/0000012b-e9c4-d974-b69f-87db80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000014f-b7b0-0f80-3cf9-96c780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000015e-0bc9-943f-ddeb-a1e880000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-996d-9f17-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000178-b232-6050-4c62-fefe80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000012a-250b-df2e-5617-794280000060>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://harvard.eagle-i.net/i/0000012b-7811-96b3-f7ea-026780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000013a-b22e-29de-0802-e06e80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/0000016f-1461-8635-9972-5f2480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://harvard.eagle-i.net/i/00000140-1c61-47c1-a870-ad6980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> .

@@ -246,12 +246,13 @@ public class OntologyMatchingOperatorOld extends AbstractParameterizedEnrichment
 	private Model filterModel(Model model) { // 4
 
 		final Model resultModel = ModelFactory.createDefaultModel();
+		/*
 		final Optional<RDFNode> sparqlQuery = getParameterMap().getOptional(SPARQL_CONSTRUCT_QUERY);
 		if (sparqlQuery.isPresent()) {
 			logger.info("Executing SPARQL CONSTRUCT query for " + getId() + " ...");
 			return QueryExecutionFactory.create(sparqlQuery.get().asLiteral().getString(), model).execConstruct();
 		} else {
-			getParameterMap().listPropertyObjects(SELECTOR).map(RDFNode::asResource).forEach(selectorResource -> {
+			/*getParameterMap().listPropertyObjects(SELECTOR).map(RDFNode::asResource).forEach(selectorResource -> {
 				RDFNode s = selectorResource.getPropertyResourceValue(SUBJECT);
 				RDFNode p = selectorResource.getPropertyResourceValue(PREDICATE);
 				Resource o = selectorResource.getPropertyResourceValue(OBJECT);
@@ -263,8 +264,9 @@ public class OntologyMatchingOperatorOld extends AbstractParameterizedEnrichment
 				SimpleSelector selector = new SimpleSelector(s == null ? null : s.asResource(),
 						p == null ? null : p.as(Property.class), o);
 				resultModel.add(model.listStatements(selector));
-			});
-		}
+			}
+			);
+		}*/
 		return resultModel;
 	}
 

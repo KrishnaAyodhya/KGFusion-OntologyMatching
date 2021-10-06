@@ -3,7 +3,7 @@
 @prefix ns7:   <http://mappings.dbpedia.org/index.php/OntologyClass:> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix ns9:   <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns10:  <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
 @prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wikidata: <http://www.wikidata.org/entity/> .
@@ -17,18 +17,18 @@ dbo:Document  a              owl:Class ;
         wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
         prov:wasDerivedFrom  ns7:Document .
 
-dbo:TelevisionSeason  a      owl:Class ;
-        rdfs:isDefinedBy     dbo: ;
-        rdfs:subClassOf      dbo:Work ;
-        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
-        prov:wasDerivedFrom  ns7:TelevisionSeason .
-
 dbo:Cartoon  a               owl:Class ;
         rdfs:isDefinedBy     dbo: ;
         rdfs:subClassOf      dbo:Work ;
         owl:equivalentClass  wikidata:Q627603 ;
         wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
         prov:wasDerivedFrom  ns7:Cartoon .
+
+dbo:TelevisionSeason  a      owl:Class ;
+        rdfs:isDefinedBy     dbo: ;
+        rdfs:subClassOf      dbo:Work ;
+        wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
+        prov:wasDerivedFrom  ns7:TelevisionSeason .
 
 dbo:LineOfFashion  a         owl:Class ;
         rdfs:isDefinedBy     dbo: ;
@@ -101,7 +101,7 @@ dbo:RadioProgram  a          owl:Class ;
 
 dbo:Database  a              owl:Class ;
         rdfs:isDefinedBy     dbo: ;
-        rdfs:subClassOf      ns9:InformationObject , dbo:Work ;
+        rdfs:subClassOf      ns10:InformationObject , dbo:Work ;
         wdrs:describedby     <http://dbpedia.org/ontology/data/definitions.ttl> ;
         prov:wasDerivedFrom  ns7:Database .
 

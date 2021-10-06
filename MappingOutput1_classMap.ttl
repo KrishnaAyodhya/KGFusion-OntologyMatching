@@ -1,0 +1,6 @@
+<Match 1> <found> _:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 .
+_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <https://w3id.org/deer/confidenceValue> "1.075" .
+_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://purl.org/dc/terms/Agent> .
+_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
+_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://eagle-i.org/ont/repo/1.0/Agent> .
+_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .

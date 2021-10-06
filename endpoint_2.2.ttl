@@ -1,0 +1,2546 @@
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix iso:   <http://purl.org/iso25964/skos-thes#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix bio:   <http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix fmt:   <http://www.w3.org/ns/formats/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix vdpp:  <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix wgs:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix vaem:  <http://www.linkedmodel.org/schema/vaem#> .
+@prefix voag:  <http://voag.linkedmodel.org/voag#> .
+@prefix voaf:  <http://purl.org/vocommons/voaf#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix ulan:  <http://vocab.getty.edu/ulan/> .
+@prefix rrx:   <http://purl.org/r2rml-ext/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix schema: <http://schema.org/> .
+@prefix rr:    <http://www.w3.org/ns/r2rml#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ptop:  <http://www.ontotext.com/proton/protontop#> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix aat:   <http://vocab.getty.edu/aat/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn:   <http://vocab.getty.edu/tgn/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix wv:    <http://vocab.org/waiver/terms/> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix gvp:   <http://vocab.getty.edu/ontology#> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix luc:   <http://www.ontotext.com/owlim/lucene#> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+gvp:aat2203_associated_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300129788-list-300129789
+        a       rdf:List .
+
+[ a       ptop:PropChain ] .
+
+skos:relatedMatch  a  owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2878_preceded-source_for
+        a       rdf:Property .
+
+schema:foundationLocation
+        a       rdf:Property .
+
+aat:300179538-list-300225875
+        a       rdf:List .
+
+iso:SplitNonPreferredTerm
+        a       rdfs:Class .
+
+dct:modified  a  rdf:Property .
+
+aat:300106792-list-300020661
+        a       rdf:List .
+
+gvp:aat2431_required_for
+        a       rdf:Property .
+
+aat:300020854-list-300020851
+        a       rdf:List .
+
+owl:disjointWith  a  rdf:Property .
+
+cc:license  a   rdf:Property .
+
+rdf:Seq  a      rdfs:Class .
+
+aat:300107699-list-300019601
+        a       rdf:List .
+
+gvp:ulan1309_advisor_of
+        a       rdf:Property .
+
+void:DatasetDescription
+        a       rdfs:Class .
+
+aat:300020353-list-300020355
+        a       rdf:List .
+
+aat:300016641-list-300016642
+        a       rdf:List .
+
+ptop:TypeRestr  a  rdfs:Class .
+
+gvp:ulan1113_fellow_student_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+skos:broader  a  rdf:Property .
+
+aat:300162380-list-300040824
+        a       rdf:List .
+
+dct:isReplacedBy  a  rdf:Property .
+
+aat:300195712-list-300196136
+        a       rdf:List .
+
+aat:300039548-list-300039928
+        a       rdf:List .
+
+prov:Modify  a  rdfs:Class .
+
+aat:300127642-list-300127657
+        a       rdf:List .
+
+rdfs:domain  a  rdf:Property .
+
+gvp:aat2841_derived-made_from
+        a       rdf:Property .
+
+gvp:aat2333_have_affiliates
+        a       rdf:Property .
+
+gvp:aat2434_contextualized_in
+        a       rdf:Property .
+
+gvp:AdminPlaceConcept
+        a       rdfs:Class .
+
+aat:300018478-list-300018480
+        a       rdf:List .
+
+gvp:ScopeNote  a  rdfs:Class .
+
+gvp:ulan2581_administrator_of
+        a       rdf:Property .
+
+aat:300019201-list-300019202
+        a       rdf:List .
+
+aat:300210941-list-300233429
+        a       rdf:List .
+
+skos:notation  a  rdf:Property .
+
+gvp:tgn3104_is_location_of
+        a       rdf:Property .
+
+aat:300008090-list-300008091
+        a       rdf:List .
+
+aat:300025457-list-300236229
+        a       rdf:List .
+
+gvp:Infer_broaderNonConcept_PropChainType2
+        a       ptop:PropChainType2 .
+
+skos:ConceptScheme  a  rdfs:Class .
+
+aat:300015682-list-300015683
+        a       rdf:List .
+
+gvp:ulan2575_directed_by
+        a       rdf:Property .
+
+aat:300234117-list-300424137
+        a       rdf:List .
+
+aat:300015678-list-300015679
+        a       rdf:List .
+
+rdf:subject  a  rdf:Property .
+
+skos:member  a  rdf:Property .
+
+gvp:aat2824_has_parallels_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+owl:propertyChainAxiom
+        a       rdf:Property .
+
+aat:300055344-list-300055347
+        a       rdf:List .
+
+aat:300158250-list-300073022
+        a       rdf:List .
+
+gvp:tgn3102_capital_is
+        a       rdf:Property .
+
+rdf:predicate  a  rdf:Property .
+
+rdfs:Container  a  rdfs:Class .
+
+aat:300255533-list-300248092
+        a       rdf:List .
+
+aat:300055633-list-300378912
+        a       rdf:List .
+
+[ a       rdf:List ] .
+
+aat:300065299-list-300055815
+        a       rdf:List .
+
+[ a       ptop:PropChain ] .
+
+[ a       rdf:List ] .
+
+aat:300016617-list-300386138
+        a       rdf:List .
+
+gvp:aat2557_reflects  a  rdf:Property .
+
+owl:AnnotationProperty
+        a       rdfs:Class .
+
+[ a       ptop:PropChain ] .
+
+gvp:ulan1315_principal_in
+        a       rdf:Property .
+
+gvp:aat2208_locus-setting_for
+        a       rdf:Property .
+
+owl:Class  a    rdfs:Class .
+
+foaf:name  a    rdf:Property .
+
+[ a       rdf:List ] .
+
+aat:300105686-list-300021091
+        a       rdf:List .
+
+owl:AllDisjointClasses
+        a       rdfs:Class .
+
+gvp:ulan1554_adoptive_parent_of
+        a       rdf:Property .
+
+gvp:ulan1541_spouse_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:tgn3412_predecessor_of
+        a       rdf:Property .
+
+gvp:agentType  a  rdf:Property .
+
+aat:300163706-list-300055954
+        a       rdf:List .
+
+aat:300133704-list-300004053
+        a       rdf:List .
+
+aat:300020799-list-300020802
+        a       rdf:List .
+
+aat:300244546-list-300244547
+        a       rdf:List .
+
+gvp:ulan1513_grandchild_of
+        a       rdf:Property .
+
+void:uriLookupEndpoint
+        a       rdf:Property .
+
+gvp:ulan1305_worked_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:Biography  a  rdfs:Class .
+
+prov:Activity  a  rdfs:Class .
+
+gvp:ulan2583_chairman_of
+        a       rdf:Property .
+
+aat:300020224-list-300020226
+        a       rdf:List .
+
+iso:subordinateArray  a  rdf:Property .
+
+aat:300018332-list-300018333
+        a       rdf:List .
+
+aat:300185916-list-300185933
+        a       rdf:List .
+
+aat:300134334-list-300162056
+        a       rdf:List .
+
+gvp:broaderExtended  a  rdf:Property .
+
+gvp:aat2295_located_in
+        a       rdf:Property .
+
+gvp:aat2818_source_for
+        a       rdf:Property .
+
+skos:editorialNote  a  rdf:Property .
+
+gvp:PersonConcept  a  rdfs:Class .
+
+dct:Dataset  a  rdfs:Class .
+
+skosxl:literalForm  a  rdf:Property .
+
+aat:300015727-list-300015729
+        a       rdf:List .
+
+schema:Place  a  rdfs:Class .
+
+[ a       ptop:PropChain ] .
+
+gvp:aat2900_miscellaneous_relationship
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300020760-list-300106913
+        a       rdf:List .
+
+[ a       rdfs:Class ] .
+
+aat:300194586-list-300191358
+        a       rdf:List .
+
+rdf:rest  a     rdf:Property .
+
+void:distinctObjects  a  rdf:Property .
+
+gvp:ulan1551_sibling_by_marriage_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300138790-list-300053535
+        a       rdf:List .
+
+gvp:tgn3411_successor_of
+        a       rdf:Property .
+
+gvp:ulan1000_related_to
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1206_client_was
+        a       rdf:Property .
+
+aat:300230425-list-300137960
+        a       rdf:List .
+
+aat:300018942-list-300018952
+        a       rdf:List .
+
+gvp:GuideTerm  a  rdfs:Class .
+
+gvp:broaderNonPreferred
+        a       rdf:Property .
+
+gvp:tgn3318_member_is
+        a       rdf:Property .
+
+gvp:ulan1501_sibling_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+foaf:maker  a   rdf:Property .
+
+gvp:aat2219_have_form
+        a       rdf:Property .
+
+aat:300023505-list-300023508
+        a       rdf:List .
+
+gvp:placeTypeNonPreferred
+        a       rdf:Property .
+
+schema:elevation  a  rdf:Property .
+
+gvp:PhysAdminPlaceConcept
+        a       rdfs:Class .
+
+gvp:aat2316_use  a  rdf:Property .
+
+prov:Publish  a  rdfs:Class .
+
+aat:300018353-list-300018354
+        a       rdf:List .
+
+rdf:type  a     rdf:Property .
+
+gvp:aat2319_involves  a  rdf:Property .
+
+owl:SymmetricProperty
+        a       rdfs:Class .
+
+skos:hasTopConcept  a  rdf:Property .
+
+prov:wasGeneratedBy  a  rdf:Property .
+
+aat:300121011-list-300015712
+        a       rdf:List .
+
+[ a       ptop:PropChain ] .
+
+gvp:ulan1532_uncle-aunt_of
+        a       rdf:Property .
+
+gvp:parentString  a  rdf:Property .
+
+gvp:historicFlag  a  rdf:Property .
+
+gvp:aat2000_related_to
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1008_meaning_-usage_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2805_contextualized_in
+        a       rdf:Property .
+
+gvp:aat2209_used-located_in
+        a       rdf:Property .
+
+gvp:eventNonPreferred
+        a       rdf:Property .
+
+gvp:ulan1414_joint_venture_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:prefLabelGVP  a  rdf:Property .
+
+aat:300233918-list-300040600
+        a       rdf:List .
+
+gvp:aat2427_produced_by
+        a       rdf:Property .
+
+gvp:aat2552_reflected_in-produces
+        a       rdf:Property .
+
+ptop:restriction  a  rdf:Property .
+
+aat:300016652-list-300016657
+        a       rdf:List .
+
+gvp:ulan1222_appointee_of
+        a       rdf:Property .
+
+gvp:ulan1531_nephew-niece_of
+        a       rdf:Property .
+
+aat:300020533-list-300263281
+        a       rdf:List .
+
+wdrs:describedby  a  rdf:Property .
+
+aat:300017879-list-300017881
+        a       rdf:List .
+
+aat:300002098-list-300131140
+        a       rdf:List .
+
+aat:300016967-list-300016970
+        a       rdf:List .
+
+void:classPartition  a  rdf:Property .
+
+gvp:aat2849_involves  a  rdf:Property .
+
+skos:narrowerTransitive
+        a       owl:TransitiveProperty , rdf:Property .
+
+aat:300056130-list-300056134
+        a       rdf:List .
+
+[ a       rdf:List ] .
+
+adms:representationTechnique
+        a       rdf:Property .
+
+aat:300046300-list-300127008
+        a       rdf:List .
+
+gvp:ulan1105_apprentice_of
+        a       rdf:Property .
+
+gvp:aat2807_derived_from_common_source
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300017001-list-300017005
+        a       rdf:List .
+
+aat:300028051-list-300220521
+        a       rdf:List .
+
+dcat:contactPoint  a  rdf:Property .
+
+aat:300015650-list-300015651
+        a       rdf:List .
+
+bio:Event  a    rdfs:Class .
+
+aat:300016685-list-300016686
+        a       rdf:List .
+
+gvp:Hierarchy  a  rdfs:Class .
+
+gvp:tgn3000_related_to
+        a       owl:SymmetricProperty , rdf:Property .
+
+skos:narrowMatch  a  rdf:Property .
+
+aat:300018372-list-300018381
+        a       rdf:List .
+
+gvp:biographyPreferred
+        a       rdf:Property .
+
+gvp:ulan1411_successor_of
+        a       rdf:Property .
+
+gvp:aat2836_derived-made_from
+        a       rdf:Property .
+
+gvp:ulan1332_worker_was
+        a       rdf:Property .
+
+skos:note  a    rdf:Property .
+
+aat:300015649-list-300015650
+        a       rdf:List .
+
+gvp:ulan1571_guardian_of
+        a       rdf:Property .
+
+gvp:aat2216_require  a  rdf:Property .
+
+gvp:aat2884_involved_with
+        a       rdf:Property .
+
+gvp:ulan1412_predecessor_of
+        a       rdf:Property .
+
+void:uriRegexPattern  a  rdf:Property .
+
+gvp:ulan2676_teacher_at
+        a       rdf:Property .
+
+dcat:CatalogRecord  a  rdfs:Class .
+
+owl:unionOf  a  rdf:Property .
+
+gvp:ulan2829_student_was
+        a       rdf:Property .
+
+void:properties  a  rdf:Property .
+
+rdfs:seeAlso  a  rdf:Property .
+
+gvp:aat2563_located_in
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+schema:dissolutionLocation
+        a       rdf:Property .
+
+dct:accrualPeriodicity
+        a       rdf:Property .
+
+gvp:aat2833_ancestor_of
+        a       rdf:Property .
+
+aat:300239147-list-300221283
+        a       rdf:List .
+
+wv:declaration  a  rdf:Property .
+
+dcat:mediaType  a  rdf:Property .
+
+gvp:aat2294_locus-setting_for
+        a       rdf:Property .
+
+aat:300005768-list-300005809
+        a       rdf:List .
+
+aat:300017769-list-300017772
+        a       rdf:List .
+
+gvp:aat2803_example_of
+        a       rdf:Property .
+
+skos:OrderedCollection
+        a       rdfs:Class .
+
+gvp:aat2285_practiced-studied_by
+        a       rdf:Property .
+
+gvp:ulan2677_teacher_was
+        a       rdf:Property .
+
+aat:300121012-list-300015719
+        a       rdf:List .
+
+voaf:toDoList  a  rdf:Property .
+
+foaf:focus  a   rdf:Property .
+
+[ a       rdf:List ] .
+
+prov:used  a    rdf:Property .
+
+gvp:ulan1582_ancestor_of
+        a       rdf:Property .
+
+gvp:Infer_isoBroaderGeneric
+        a       ptop:PropRestr .
+
+gvp:ulan1212_artist_was
+        a       rdf:Property .
+
+aat:300026877-list-300026878
+        a       rdf:List .
+
+ptop:type2  a   rdf:Property .
+
+aat:300020085-list-300106982
+        a       rdf:List .
+
+[ a       rdf:List ] .
+
+ptop:PropChainRestr  a  rdfs:Class .
+
+gvp:ulan1421_founded_by
+        a       rdf:Property .
+
+gvp:contributorPreferred
+        a       rdf:Property .
+
+aat:300015667-list-300015668
+        a       rdf:List .
+
+foaf:Organization  a  rdfs:Class .
+
+rdf:_1  a       rdfs:ContainerMembershipProperty , rdf:Property .
+
+gvp:aat2409_takes_place_in
+        a       rdf:Property .
+
+gvp:eventPreferred  a  rdf:Property .
+
+rdfs:isDefinedBy  a  rdf:Property .
+
+gvp:aat2821_based_on  a  rdf:Property .
+
+aat:300107203-list-300107206
+        a       rdf:List .
+
+aat:300021614-list-300021633
+        a       rdf:List .
+
+aat:300025297-list-300025312
+        a       rdf:List .
+
+gvp:aat2894_exemplified_by
+        a       rdf:Property .
+
+gvp:Infer_skosBroader_TypeRestr
+        a       ptop:TypeRestr .
+
+gvp:aat2001_formerly_referred_to
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300033973-list-300034362
+        a       rdf:List .
+
+aat:300020133-list-300263537
+        a       rdf:List .
+
+aat:300015690-list-300015759
+        a       rdf:List .
+
+gvp:aat2336_has_associates
+        a       rdf:Property .
+
+gvp:aat2318_involved_in
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:ulan1514_gandparent_of
+        a       rdf:Property .
+
+gvp:ulan1213_court_artist_to
+        a       rdf:Property .
+
+skos:closeMatch  a  owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2110_meaning-usage_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2554_reflects  a  rdf:Property .
+
+gvp:ulan1311_partner_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300111912-list-300021006
+        a       rdf:List .
+
+gvp:ulan1555_adopted_child_of
+        a       rdf:Property .
+
+aat:300013832-list-300013833
+        a       rdf:List .
+
+aat:300020167-list-300020168
+        a       rdf:List .
+
+gvp:aat2100_distinguished_from
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300233013-list-300233015
+        a       rdf:List .
+
+foaf:homepage  a  rdf:Property .
+
+aat:300250126-list-300310269
+        a       rdf:List .
+
+aat:300134084-list-300021814
+        a       rdf:List .
+
+aat:300020086-list-300106990
+        a       rdf:List .
+
+rdfs:subPropertyOf  a  owl:TransitiveProperty , rdf:Property .
+
+owl:imports  a  rdf:Property .
+
+gvp:Concept  a  rdfs:Class .
+
+aat:300017228-list-300017229
+        a       rdf:List .
+
+aat:300018398-list-300018399
+        a       rdf:List .
+
+aat:300005433-list-300122205
+        a       rdf:List .
+
+iso:broaderInstantial
+        a       rdf:Property .
+
+aat:300015702-list-300015703
+        a       rdf:List .
+
+dcat:distribution  a  rdf:Property .
+
+gvp:aat2332_affiliated_with
+        a       rdf:Property .
+
+gvp:ulan2779_owned_by
+        a       rdf:Property .
+
+aat:300129747-list-300129759
+        a       rdf:List .
+
+aat:300126079-list-300126082
+        a       rdf:List .
+
+gvp:ulan1573_ward_of  a  rdf:Property .
+
+gvp:aat2206_caused_by-requires
+        a       rdf:Property .
+
+bio:event  a    rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:broaderInstantial
+        a       rdf:Property .
+
+aat:300017141-list-300017143
+        a       rdf:List .
+
+gvp:aat2397_focus_of  a  rdf:Property .
+
+void:vocabulary  a  rdf:Property .
+
+aat:300194389-list-300200661
+        a       rdf:List .
+
+gvp:ulan1548_domestic_partner_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+void:triples  a  rdf:Property .
+
+aat:300015901-list-300015902
+        a       rdf:List .
+
+rdf:Statement  a  rdfs:Class .
+
+ptop:premise1  a  rdf:Property .
+
+rdfs:Datatype  a  rdfs:Class .
+
+owl:Ontology  a  rdfs:Class .
+
+aat:300020756-list-300020760
+        a       rdf:List .
+
+gvp:termDisplay  a  rdf:Property .
+
+gvp:termType  a  rdf:Property .
+
+gvp:ulan2572_founder_of
+        a       rdf:Property .
+
+gvp:ulan1003_associated_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:broaderPreferred  a  rdf:Property .
+
+gvp:ulan1516_great-grandchild_of
+        a       rdf:Property .
+
+gvp:tgn3110_meaning-usage_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan2692_president_of
+        a       rdf:Property .
+
+iso:broaderPartitive  a  rdf:Property .
+
+void:Dataset  a  rdfs:Class .
+
+owl:onClass  a  rdf:Property .
+
+gvp:sourceNonPreferred
+        a       rdf:Property .
+
+aat:300250163-list-300250169
+        a       rdf:List .
+
+gvp:aat2607_caused_by-requires
+        a       rdf:Property .
+
+gvp:aat2605_possess-exist_in
+        a       rdf:Property .
+
+[ a       rdfs:Class ] .
+
+gvp:ulan1316_principal_was
+        a       rdf:Property .
+
+dct:Collection  a  rdfs:Class .
+
+gvp:aat2837_source_for
+        a       rdf:Property .
+
+aat:300019258-list-300106730
+        a       rdf:List .
+
+iso:ThesaurusArray  a  rdfs:Class .
+
+gvp:tgn3317_member_of
+        a       rdf:Property .
+
+gvp:aat2895_example_of
+        a       rdf:Property .
+
+gvp:aat2311_performed_by
+        a       rdf:Property .
+
+gvp:ulan1581_descendant_of
+        a       rdf:Property .
+
+aat:300008932-list-300132441
+        a       rdf:List .
+
+rdf:List  a     rdfs:Class .
+
+[ a       ptop:PropChain ] .
+
+gvp:aat2502_material_for
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+owl:members  a  rdf:Property .
+
+aat:300249665-list-300310224
+        a       rdf:List .
+
+aat:300211801-list-300222181
+        a       rdf:List .
+
+aat:300195432-list-300191652
+        a       rdf:List .
+
+schema:Person  a  rdfs:Class .
+
+gvp:term  a     rdf:Property .
+
+gvp:ulan2550_friend_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+skos:Concept  a  rdfs:Class .
+
+aat:300128590-list-300128597
+        a       rdf:List .
+
+dct:rights  a   rdf:Property .
+
+bibo:DocumentPart  a  rdfs:Class .
+
+gvp:aat2428_produces  a  rdf:Property .
+
+gvp:Infer_broaderNonConcept_TypeRestr
+        a       ptop:TypeRestr .
+
+aat:300018953-list-300019028
+        a       rdf:List .
+
+gvp:tgn3401_moved_from
+        a       rdf:Property .
+
+void:distinctSubjects
+        a       rdf:Property .
+
+gvp:biographyNonPreferred
+        a       rdf:Property .
+
+dct:title  a    rdf:Property .
+
+gvp:aat2831_associated_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300002382-list-300002424
+        a       rdf:List .
+
+aat:300244127-list-300021564
+        a       rdf:List .
+
+gvp:ulan1313_partner_in
+        a       rdf:Property .
+
+aat:300193227-list-300037283
+        a       rdf:List .
+
+rdfs:subClassOf  a  owl:TransitiveProperty , rdf:Property .
+
+gvp:tgn3510_historical_connection
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300037680-list-300048628
+        a       rdf:List .
+
+aat:300037592-list-300037593
+        a       rdf:List .
+
+gvp:ulan1218_employee_was
+        a       rdf:Property .
+
+cc:attributionURL  a  rdf:Property .
+
+skos:altLabel  a  rdf:Property .
+
+foaf:nick  a    rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:aat2829_used-required_for
+        a       rdf:Property .
+
+aat:300006460-list-300122445
+        a       rdf:List .
+
+gvp:ulan1005_possibly_identified_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300177660-list-300013685
+        a       rdf:List .
+
+aat:300197577-list-300198758
+        a       rdf:List .
+
+aat:300019267-list-300019270
+        a       rdf:List .
+
+bibo:shortTitle  a  rdf:Property .
+
+gvp:aat2507_produce-process
+        a       rdf:Property .
+
+[ a       ptop:PropChain ] .
+
+aat:300178758-list-300178759
+        a       rdf:List .
+
+aat:300018346-list-300264900
+        a       rdf:List .
+
+aat:300017313-list-300017331
+        a       rdf:List .
+
+gvp:ulan1331_worked_with
+        a       rdf:Property .
+
+aat:300195806-list-300196864
+        a       rdf:List .
+
+aat:300107253-list-300020414
+        a       rdf:List .
+
+gvp:ulan1515_great-grandparent_of
+        a       rdf:Property .
+
+gvp:ulan1217_employee_of
+        a       rdf:Property .
+
+skosxl:Label  a  rdfs:Class .
+
+void:property  a  rdf:Property .
+
+gvp:aat2325_created_by
+        a       rdf:Property .
+
+gvp:aat2411_involved_in
+        a       rdf:Property .
+
+gvp:aat2881_reflected_in
+        a       rdf:Property .
+
+gvp:Infer_isoBroaderPartitive
+        a       ptop:PropRestr .
+
+aat:300189564-list-300189588
+        a       rdf:List .
+
+gvp:ulan1543_consort_was
+        a       rdf:Property .
+
+aat:300015647-list-300262582
+        a       rdf:List .
+
+gvp:aat2326_create  a  rdf:Property .
+
+aat:300000885-list-300078046
+        a       rdf:List .
+
+rdf:Literal  a  rdfs:Class .
+
+[ a       ptop:PropChain ] .
+
+[ a       ptop:PropChain ] .
+
+aat:300178802-list-300212133
+        a       rdf:List .
+
+skos:example  a  rdf:Property .
+
+gvp:aat2551_reflect-produced_by
+        a       rdf:Property .
+
+aat:300001262-list-300192760
+        a       rdf:List .
+
+aat:300120043-list-300264783
+        a       rdf:List .
+
+aat:300038418-list-300038421
+        a       rdf:List .
+
+aat:300021584-list-300021586
+        a       rdf:List .
+
+aat:300024979-list-300192630
+        a       rdf:List .
+
+voaf:Vocabulary  a  rdfs:Class .
+
+gvp:aat2891_exemplified_by
+        a       rdf:Property .
+
+aat:300017399-list-300017400
+        a       rdf:List .
+
+gvp:aat2845_used-located_in
+        a       rdf:Property .
+
+aat:300164603-list-300056242
+        a       rdf:List .
+
+aat:300016629-list-300016632
+        a       rdf:List .
+
+owl:TransitiveProperty
+        a       rdfs:Class .
+
+void:dataDump  a  rdf:Property .
+
+void:sparqlEndpoint  a  rdf:Property .
+
+aat:300138225-list-300126352
+        a       rdf:List .
+
+aat:300163697-list-300240367
+        a       rdf:List .
+
+gvp:ulan1557_step-sibling_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1321_school_of
+        a       rdf:Property .
+
+aat:300126788-list-300126789
+        a       rdf:List .
+
+gvp:PhysPlaceConcept  a  rdfs:Class .
+
+schema:birthPlace  a  rdf:Property .
+
+gvp:tgn3201_capital_of
+        a       rdf:Property .
+
+gvp:aat2505_locus-setting_for
+        a       rdf:Property .
+
+gvp:broaderGeneric  a  rdf:Property .
+
+gvp:aat2828_use-require
+        a       rdf:Property .
+
+gvp:ulan2675_professor_was
+        a       rdf:Property .
+
+gvp:ulan1102_student_of
+        a       rdf:Property .
+
+aat:300198842-list-300234559
+        a       rdf:List .
+
+dct:rightsHolder  a  rdf:Property .
+
+gvp:broaderNonConcept
+        a       rdf:Property .
+
+gvp:ulan1590_possibly_related_to
+        a       owl:SymmetricProperty , rdf:Property .
+
+[ a       rdf:List ] .
+
+aat:300107946-list-300107952
+        a       rdf:List .
+
+aat:300016923-list-300016924
+        a       rdf:List .
+
+gvp:ulan1500_related_to
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1302_associate_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+skos:definition  a  rdf:Property .
+
+bibo:locator  a  rdf:Property .
+
+gvp:ulan2841_performer_was
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:ulan1211_artist_to
+        a       rdf:Property .
+
+gvp:estStart  a  rdf:Property .
+
+gvp:tgn3102_coextensive_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2815_composed_of
+        a       rdf:Property .
+
+dct:format  a   rdf:Property .
+
+[ a       rdfs:Class ] .
+
+aat:300053909-list-300053922
+        a       rdf:List .
+
+vann:preferredNamespaceUri
+        a       rdf:Property .
+
+gvp:tgn3202_capital_is
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+aat:300018324-list-300120431
+        a       rdf:List .
+
+gvp:broaderPartitive  a  rdf:Property .
+
+gvp:placeTypePreferred
+        a       rdf:Property .
+
+gvp:aat2398_focuses_on
+        a       rdf:Property .
+
+aat:300020276-list-300020279
+        a       rdf:List .
+
+aat:300017008-list-300017006
+        a       rdf:List .
+
+aat:300017280-list-300017299
+        a       rdf:List .
+
+aat:300229483-list-300263228
+        a       rdf:List .
+
+gvp:aat2879_followed-developed_from
+        a       rdf:Property .
+
+aat:300017167-list-300017170
+        a       rdf:List .
+
+dc:type  a      rdf:Property .
+
+aat:300020355-list-300020375
+        a       rdf:List .
+
+aat:300194694-list-300191372
+        a       rdf:List .
+
+aat:300106723-list-300106724
+        a       rdf:List .
+
+gvp:aat2562_locus-setting_for
+        a       rdf:Property .
+
+dct:isPartOf  a  rdf:Property .
+
+dct:issued  a   rdf:Property .
+
+aat:300053901-list-300251413
+        a       rdf:List .
+
+aat:300018906-list-300018918
+        a       rdf:List .
+
+ptop:premise  a  rdf:Property .
+
+aat:300019106-list-300019107
+        a       rdf:List .
+
+gvp:Subject  a  rdfs:Class .
+
+aat:300016636-list-300016637
+        a       rdf:List .
+
+[ a       rdfs:Class ] .
+
+gvp:prefLabelLoC  a  rdf:Property .
+
+gvp:aat2419_used_for  a  rdf:Property .
+
+wgs:SpatialThing  a  rdfs:Class .
+
+dct:publisher  a  rdf:Property .
+
+gvp:aat2416_requires  a  rdf:Property .
+
+schema:Event  a  rdfs:Class .
+
+aat:300018680-list-300018686
+        a       rdf:List .
+
+adms:interoperabilityLevel
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+aat:300016794-list-300016874
+        a       rdf:List .
+
+aat:300004800-list-300004803
+        a       rdf:List .
+
+aat:300018782-list-300018784
+        a       rdf:List .
+
+aat:300017267-list-300017361
+        a       rdf:List .
+
+aat:300011443-list-300011445
+        a       rdf:List .
+
+gvp:aat2286_practice-study
+        a       rdf:Property .
+
+gvp:aat2814_constituent_of
+        a       rdf:Property .
+
+aat:300107202-list-300020256
+        a       rdf:List .
+
+aat:300189814-list-300223178
+        a       rdf:List .
+
+schema:nationality  a  rdf:Property .
+
+aat:300127575-list-300127576
+        a       rdf:List .
+
+aat:300244079-list-300021622
+        a       rdf:List .
+
+gvp:ulan1006_formerly_identified_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+wgs:lat  a      rdf:Property .
+
+aat:300021037-list-300260970
+        a       rdf:List .
+
+gvp:aat2412_involves  a  rdf:Property .
+
+aat:300021944-list-300021946
+        a       rdf:List .
+
+aat:300006207-list-300152308
+        a       rdf:List .
+
+dc:title  a     rdf:Property .
+
+gvp:aat2424_produced_by
+        a       rdf:Property .
+
+owl:Restriction  a  rdfs:Class .
+
+aat:300244126-list-300021715
+        a       rdf:List .
+
+gvp:aat2418_uses  a  rdf:Property .
+
+gvp:ulan1511_child_of
+        a       rdf:Property .
+
+gvp:ulan2697_leader_was
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:tgn3001_distinguished_from
+        a       owl:SymmetricProperty , rdf:Property .
+
+schema:box  a   rdf:Property .
+
+gvp:aat2876_characterized_by
+        a       rdf:Property .
+
+aat:300102506-list-300102509
+        a       rdf:List .
+
+aat:300209267-list-300253714
+        a       rdf:List .
+
+ptop:PropRestr  a  rdfs:Class .
+
+gvp:ulan2794_representative_of
+        a       rdf:Property .
+
+gvp:sourceAlternatePreferred
+        a       rdf:Property .
+
+gvp:ulan2828_student_at
+        a       rdf:Property .
+
+gvp:ulan1521_cousin_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan2584_chaired_by
+        a       rdf:Property .
+
+aat:300027268-list-300027272
+        a       rdf:List .
+
+skos:prefLabel  a  rdf:Property .
+
+gvp:aat2802_exemplified_by
+        a       rdf:Property .
+
+gvp:agentTypeNonPreferred
+        a       rdf:Property .
+
+skos:Collection  a  rdfs:Class .
+
+gvp:ulan1322_school_was
+        a       rdf:Property .
+
+gvp:tgn3005_possibly_identified_as
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2211_produce  a  rdf:Property .
+
+ptop:PropChainType2  a  rdfs:Class .
+
+gvp:broaderGenericExtended
+        a       rdf:Property .
+
+dct:type  a     rdf:Property .
+
+aat:300047090-list-300047091
+        a       rdf:List .
+
+gvp:aat2415_required_for
+        a       rdf:Property .
+
+gvp:aat2335_associated_with
+        a       rdf:Property .
+
+aat:300107696-list-300107697
+        a       rdf:List .
+
+gvp:aat2809_coexisted_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:ulan2696_leader_of
+        a       rdf:Property .
+
+[ a       ptop:PropChain ] .
+
+gvp:aat2853_involve  a  rdf:Property .
+
+aat:300016697-list-300016698
+        a       rdf:List .
+
+skos:mappingRelation  a  rdf:Property .
+
+gvp:ulan1422_founded  a  rdf:Property .
+
+gvp:aat2422_takes_place_in
+        a       rdf:Property .
+
+gvp:aat2291_locus-setting_for
+        a       rdf:Property .
+
+gvp:aat2501_made_of-require
+        a       rdf:Property .
+
+gvp:aat2852_involved_with
+        a       rdf:Property .
+
+void:entities  a  rdf:Property .
+
+aat:300021516-list-300264429
+        a       rdf:List .
+
+aat:300106921-list-300107170
+        a       rdf:List .
+
+skos:exactMatch  a  owl:TransitiveProperty , owl:SymmetricProperty , rdf:Property .
+
+aat:300042513-list-300195429
+        a       rdf:List .
+
+schema:deathPlace  a  rdf:Property .
+
+wgs:long  a     rdf:Property .
+
+aat:300107629-list-300019576
+        a       rdf:List .
+
+aat:300010737-list-300010738
+        a       rdf:List .
+
+ptop:conclusion  a  rdf:Property .
+
+gvp:aat2608_causes-required_for
+        a       rdf:Property .
+
+aat:300017099-list-300017100
+        a       rdf:List .
+
+[ a       rdf:List ] .
+
+xsd:positiveInteger  a  rdfs:Class .
+
+iso:ConceptGroup  a  rdfs:Class .
+
+schema:longitude  a  rdf:Property .
+
+gvp:ulan2693_president_was
+        a       rdf:Property .
+
+dcat:keyword  a  rdf:Property .
+
+aat:300020669-list-300106792
+        a       rdf:List .
+
+dct:contributor  a  rdf:Property .
+
+rdfs:label  a   rdf:Property .
+
+gvp:ulan1107_influenced
+        a       rdf:Property .
+
+gvp:ulan1310_advised_by
+        a       rdf:Property .
+
+aat:300013533-list-300013535
+        a       rdf:List .
+
+dc:format  a    rdf:Property .
+
+dcat:theme  a   rdf:Property .
+
+adms:status  a  rdf:Property .
+
+gvp:aat2425_produces  a  rdf:Property .
+
+gvp:aat2601_possessed_by-existing_in
+        a       rdf:Property .
+
+skos:scopeNote  a  rdf:Property .
+
+gvp:aat2558_reflected_in
+        a       rdf:Property .
+
+[ a       ptop:PropChain ] .
+
+aat:300106920-list-300106924
+        a       rdf:List .
+
+gvp:aat2842_source_for
+        a       rdf:Property .
+
+cc:License  a   rdfs:Class .
+
+aat:300107633-list-300263188
+        a       rdf:List .
+
+gvp:ulan2795_representative_was
+        a       rdf:Property .
+
+gvp:aat2315_used_by  a  rdf:Property .
+
+aat:300233611-list-300022737
+        a       rdf:List .
+
+gvp:ulan1112_master_was
+        a       rdf:Property .
+
+gvp:ulan1317_member_of
+        a       rdf:Property .
+
+aat:300249701-list-300310176
+        a       rdf:List .
+
+aat:300245451-list-300245805
+        a       rdf:List .
+
+aat:300232781-list-300232786
+        a       rdf:List .
+
+aat:300041273-list-300178549
+        a       rdf:List .
+
+adms:sample  a  rdf:Property .
+
+aat:300037772-list-300037775
+        a       rdf:List .
+
+aat:300129211-list-300129212
+        a       rdf:List .
+
+iso:subGroup  a  owl:TransitiveProperty .
+
+gvp:ulan1204_donor_was
+        a       rdf:Property .
+
+dcat:accessURL  a  rdf:Property .
+
+gvp:aat2806_provide_context
+        a       rdf:Property .
+
+aat:300206738-list-300206747
+        a       rdf:List .
+
+gvp:ulan1101_teacher_of
+        a       rdf:Property .
+
+gvp:aat2882_reflect  a  rdf:Property .
+
+dcat:Dataset  a  rdfs:Class .
+
+aat:300000202-list-300000203
+        a       rdf:List .
+
+gvp:ObsoleteSubject  a  rdfs:Class .
+
+gvp:ulan1224_crowned  a  rdf:Property .
+
+aat:300191763-list-300254203
+        a       rdf:List .
+
+rdf:Property  a  rdfs:Class .
+
+skos:broadMatch  a  rdf:Property .
+
+aat:300019332-list-300134098
+        a       rdf:List .
+
+gvp:ulan2650_publisher_was
+        a       rdf:Property .
+
+gvp:aat2321_used_by  a  rdf:Property .
+
+schema:GeoShape  a  rdfs:Class .
+
+[ a       rdfs:Class ] .
+
+schema:description  a  rdf:Property .
+
+gvp:aat2215_required_for
+        a       rdf:Property .
+
+foaf:primaryTopic  a  rdf:Property .
+
+gvp:Infer_skosBroader_PropChainType2
+        a       ptop:PropChainType2 .
+
+dc:description  a  rdf:Property .
+
+rdf:Bag  a      rdfs:Class .
+
+aat:300212527-list-300220406
+        a       rdf:List .
+
+aat:300259074-list-300310172
+        a       rdf:List .
+
+aat:300018438-list-300018439
+        a       rdf:List .
+
+gvp:broaderPartitiveExtended
+        a       rdf:Property .
+
+aat:300078048-list-300000992
+        a       rdf:List .
+
+aat:300000705-list-300000706
+        a       rdf:List .
+
+gvp:ulan2674_professor_at
+        a       rdf:Property .
+
+owl:versionInfo  a  rdf:Property .
+
+void:inDataset  a  rdf:Property .
+
+aat:300020337-list-300020340
+        a       rdf:List .
+
+aat:300025975-list-300253357
+        a       rdf:List .
+
+skos:narrower  a  rdf:Property .
+
+dct:subject  a  rdf:Property .
+
+gvp:aat2555_reflected_in
+        a       rdf:Property .
+
+gvp:aat2604_possessed_by-existing_in
+        a       rdf:Property .
+
+skos:topConceptOf  a  rdf:Property .
+
+gvp:aat2421_locus-setting_for
+        a       rdf:Property .
+
+gvp:aat2846_locus-setting_for
+        a       rdf:Property .
+
+aat:300192973-list-300211742
+        a       rdf:List .
+
+ptop:type1  a   rdf:Property .
+
+xsd:boolean  a  rdfs:Class .
+
+aat:300194009-list-300198349
+        a       rdf:List .
+
+schema:location  a  rdf:Property .
+
+skos:semanticRelation
+        a       rdf:Property .
+
+iso:PreferredTerm  a  rdfs:Class .
+
+aat:300239001-list-300192907
+        a       rdf:List .
+
+gvp:nationalityPreferred
+        a       rdf:Property .
+
+aat:300123013-list-300211844
+        a       rdf:List .
+
+skos:historyNote  a  rdf:Property .
+
+schema:geo  a   rdf:Property .
+
+gvp:aat2817_derived-made_from
+        a       rdf:Property .
+
+owl:qualifiedCardinality
+        a       rdf:Property .
+
+aat:300011183-list-300011185
+        a       rdf:List .
+
+aat:300010797-list-300010799
+        a       rdf:List .
+
+gvp:ulan2578_trustee_of
+        a       rdf:Property .
+
+aat:300017120-list-300017121
+        a       rdf:List .
+
+gvp:aat2612_possessed_by-existing_in
+        a       rdf:Property .
+
+aat:300020605-list-300020607
+        a       rdf:List .
+
+aat:300232954-list-300232955
+        a       rdf:List .
+
+aat:300019273-list-300106751
+        a       rdf:List .
+
+aat:300015685-list-300015686
+        a       rdf:List .
+
+gvp:aat2508_produced-processed_by
+        a       rdf:Property .
+
+foaf:Document  a  rdfs:Class .
+
+aat:300042558-list-300205169
+        a       rdf:List .
+
+aat:300250602-list-300250622
+        a       rdf:List .
+
+aat:300036746-list-300205385
+        a       rdf:List .
+
+aat:300018669-list-300134127
+        a       rdf:List .
+
+aat:300018519-list-300262973
+        a       rdf:List .
+
+gvp:aat2613_possess-exist_in
+        a       rdf:Property .
+
+[ a       ptop:PropChain ] .
+
+skosxl:altLabel  a  rdf:Property .
+
+aat:300017396-list-300017397
+        a       rdf:List .
+
+gvp:ulan2573_founded_by
+        a       rdf:Property .
+
+rdfs:ContainerMembershipProperty
+        a       rdfs:Class .
+
+gvp:tgn3103_located_on
+        a       rdf:Property .
+
+gvp:UnknownPersonConcept
+        a       rdfs:Class .
+
+aat:300195764-list-300195759
+        a       rdf:List .
+
+aat:300020041-list-300019446
+        a       rdf:List .
+
+aat:300016619-list-300016628
+        a       rdf:List .
+
+aat:300001892-list-300001894
+        a       rdf:List .
+
+aat:300106660-list-300018567
+        a       rdf:List .
+
+gvp:parentStringAbbrev
+        a       rdf:Property .
+
+dct:creator  a  rdf:Property .
+
+gvp:tgn3402_moved_to  a  rdf:Property .
+
+gvp:broaderPreferredExtended
+        a       rdf:Property .
+
+skos:changeNote  a  rdf:Property .
+
+gvp:tgn3301_ally_of  a  owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1318_member_was
+        a       rdf:Property .
+
+aat:300108579-list-300015733
+        a       rdf:List .
+
+void:classes  a  rdf:Property .
+
+gvp:ulan1575_godchild_of
+        a       rdf:Property .
+
+dc:identifier  a  rdf:Property .
+
+gvp:ulan1553_child_by_marriage_of
+        a       rdf:Property .
+
+gvp:ulan1561_step-child_of
+        a       rdf:Property .
+
+gvp:biography  a  rdf:Property .
+
+void:class  a   rdf:Property .
+
+void:subset  a  rdf:Property .
+
+wgs:alt  a      rdf:Property .
+
+aat:300024341-list-300024347
+        a       rdf:List .
+
+aat:300120040-list-300264785
+        a       rdf:List .
+
+dct:created  a  rdf:Property .
+
+aat:300017437-list-300017442
+        a       rdf:List .
+
+aat:300128339-list-300128348
+        a       rdf:List .
+
+aat:300014254-list-300014255
+        a       rdf:List .
+
+aat:300017300-list-300017301
+        a       rdf:List .
+
+aat:300019935-list-300107802
+        a       rdf:List .
+
+aat:300263188-list-300107675
+        a       rdf:List .
+
+aat:300259362-list-300259363
+        a       rdf:List .
+
+aat:300020079-list-300020080
+        a       rdf:List .
+
+gvp:tgn3006_formerly_identified_as
+        a       owl:SymmetricProperty .
+
+gvp:ulan2840_performer_with
+        a       rdf:Property .
+
+gvp:ulan1007_distinguished_from
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2322_use  a  rdf:Property .
+
+aat:300017498-list-300017500
+        a       rdf:List .
+
+aat:300011772-list-300250544
+        a       rdf:List .
+
+gvp:aat2432_requires  a  rdf:Property .
+
+gvp:ulan2574_director_of
+        a       rdf:Property .
+
+xsd:string  a   rdfs:Datatype , rdfs:Class .
+
+skosxl:hiddenLabel  a  rdf:Property .
+
+gvp:ulan1201_patron_of
+        a       rdf:Property .
+
+aat:300020794-list-300263130
+        a       rdf:List .
+
+gvp:ulan1106_apprentice_was
+        a       rdf:Property .
+
+owl:minQualifiedCardinality
+        a       rdf:Property .
+
+aat:300013109-list-300013110
+        a       rdf:List .
+
+[ a       ptop:PropChain ] .
+
+gvp:aat2834_decendant_of
+        a       rdf:Property .
+
+aat:300018403-list-300018405
+        a       rdf:List .
+
+[ a       rdf:List ] .
+
+aat:300010907-list-300249963
+        a       rdf:List .
+
+aat:300018824-list-300018825
+        a       rdf:List .
+
+gvp:displayOrder  a  rdf:Property .
+
+aat:300250308-list-300310456
+        a       rdf:List .
+
+aat:300162902-list-300161433
+        a       rdf:List .
+
+aat:300107592-list-300020646
+        a       rdf:List .
+
+aat:300106924-list-300106928
+        a       rdf:List .
+
+aat:300163880-list-300005043
+        a       rdf:List .
+
+rdf:value  a    rdf:Property .
+
+gvp:ulan1301_colleague_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+iso:superOrdinate  a  rdf:Property .
+
+dct:source  a   rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:aat2892_example_of
+        a       rdf:Property .
+
+iso:CompoundEquivalence
+        a       rdfs:Class .
+
+aat:300130602-list-300130603
+        a       rdf:List .
+
+aat:300021034-list-300192167
+        a       rdf:List .
+
+aat:300021164-list-300021165
+        a       rdf:List .
+
+aat:300193233-list-300037280
+        a       rdf:List .
+
+gvp:aat2811_preceded  a  rdf:Property .
+
+aat:300024095-list-300023895
+        a       rdf:List .
+
+gvp:Facet  a    rdfs:Class .
+
+void:propertyPartition
+        a       rdf:Property .
+
+aat:300000283-list-300000285
+        a       rdf:List .
+
+gvp:aat2328_involved_with
+        a       rdf:Property .
+
+gvp:agentTypePreferred
+        a       rdf:Property .
+
+skos:broaderTransitive
+        a       owl:TransitiveProperty , rdf:Property .
+
+gvp:ulan1542_consort_of
+        a       rdf:Property .
+
+dcat:landingPage  a  rdf:Property .
+
+aat:300227809-list-300227810
+        a       rdf:List .
+
+aat:300126589-list-300126590
+        a       rdf:List .
+
+gvp:estEnd  a   rdf:Property .
+
+rdfs:Literal  a  rdfs:Class .
+
+aat:300106643-list-300106652
+        a       rdf:List .
+
+dct:language  a  rdf:Property .
+
+gvp:broaderInstantialExtended
+        a       rdf:Property .
+
+aat:300019576-list-300019577
+        a       rdf:List .
+
+[ a       rdf:List ] .
+
+gvp:Infer_broaderPreferredExtended
+        a       ptop:PropChainRestr .
+
+adms:AssetDistribution
+        a       rdfs:Class .
+
+aat:300192630-list-300191997
+        a       rdf:List .
+
+aat:300015668-list-300015669
+        a       rdf:List .
+
+aat:300018422-list-300106401
+        a       rdf:List .
+
+gvp:aat2602_possess-exist_in
+        a       rdf:Property .
+
+gvp:aat2848_involved_in
+        a       rdf:Property .
+
+dct:description  a  rdf:Property .
+
+gvp:termKind  a  rdf:Property .
+
+aat:300122241-list-300167845
+        a       rdf:List .
+
+rdfs:range  a   rdf:Property .
+
+aat:300020666-list-300020575
+        a       rdf:List .
+
+aat:300128002-list-300128003
+        a       rdf:List .
+
+aat:300021854-list-300021861
+        a       rdf:List .
+
+aat:300019833-list-300107712
+        a       rdf:List .
+
+rdf:XMLLiteral  a  rdfs:Datatype , rdfs:Class .
+
+gvp:ulan1223_crowned_by
+        a       rdf:Property .
+
+foaf:Agent  a   rdfs:Class .
+
+void:Linkset  a  rdfs:Class .
+
+schema:Organization  a  rdfs:Class .
+
+vann:preferredNamespacePrefix
+        a       rdf:Property .
+
+aat:300174553-list-300019190
+        a       rdf:List .
+
+aat:300110008-list-300070083
+        a       rdf:List .
+
+gvp:ulan2781_dedicatee_of
+        a       rdf:Property .
+
+aat:300018115-list-300182834
+        a       rdf:List .
+
+gvp:GroupConcept  a  rdfs:Class .
+
+gvp:aat2222_act_upon  a  rdf:Property .
+
+skos:inScheme  a  rdf:Property .
+
+gvp:ulan1205_client_of
+        a       rdf:Property .
+
+dc:date  a      rdf:Property .
+
+gvp:ulan1308_assisted_by
+        a       rdf:Property .
+
+aat:300128098-list-300128237
+        a       rdf:List .
+
+aat:300056348-list-300263951
+        a       rdf:List .
+
+ptop:PropChain  a  rdfs:Class .
+
+prov:Create  a  rdfs:Class .
+
+gvp:ulan1314_partner_was
+        a       rdf:Property .
+
+gvp:ulan1306_performs_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300232962-list-300232963
+        a       rdf:List .
+
+gvp:termPOS  a  rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:ulan1562_step-parent_of
+        a       rdf:Property .
+
+aat:300233039-list-300233040
+        a       rdf:List .
+
+aat:300018340-list-300264891
+        a       rdf:List .
+
+gvp:placeType  a  rdf:Property .
+
+aat:300054582-list-300054584
+        a       rdf:List .
+
+gvp:aat2312_perform  a  rdf:Property .
+
+bibo:Document  a  rdfs:Class .
+
+iso:SimpleNonPreferredTerm
+        a       rdfs:Class .
+
+owl:inverseOf  a  owl:SymmetricProperty , rdf:Property .
+
+cc:Work  a      rdfs:Class .
+
+rdf:Alt  a      rdfs:Class .
+
+aat:300019942-list-300107778
+        a       rdf:List .
+
+gvp:Infer_isoBroaderInstantial
+        a       ptop:PropRestr .
+
+aat:300020537-list-300107343
+        a       rdf:List .
+
+gvp:ulan1413_administration_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2822_basis_of  a  rdf:Property .
+
+gvp:ulan2582_administered_by
+        a       rdf:Property .
+
+gvp:aat2292_work-live_in
+        a       rdf:Property .
+
+[ a       ptop:PropChain ] .
+
+aat:300107750-list-300019584
+        a       rdf:List .
+
+owl:DatatypeProperty  a  rdfs:Class .
+
+aat:300018521-list-300018522
+        a       rdf:List .
+
+gvp:ulan1574_godparent_of
+        a       rdf:Property .
+
+aat:300106581-list-300018543
+        a       rdf:List .
+
+dcat:byteSize  a  rdf:Property .
+
+aat:300021744-list-300021752
+        a       rdf:List .
+
+wv:norms  a     rdf:Property .
+
+gvp:tgn3101_near-adjacent_to
+        a       owl:SymmetricProperty .
+
+dct:replaces  a  rdf:Property .
+
+aat:300233021-list-300233022
+        a       rdf:List .
+
+aat:300107224-list-300019246
+        a       rdf:List .
+
+gvp:ulan2579_trustee_was
+        a       rdf:Property .
+
+aat:300010269-list-300056297
+        a       rdf:List .
+
+gvp:ulan2778_owner_of
+        a       rdf:Property .
+
+owl:cardinality  a  rdf:Property .
+
+dcat:downloadURL  a  rdf:Property .
+
+aat:300020656-list-300379854
+        a       rdf:List .
+
+aat:300020541-list-300107346
+        a       rdf:List .
+
+gvp:termFlag  a  rdf:Property .
+
+aat:300013332-list-300013333
+        a       rdf:List .
+
+owl:FunctionalProperty
+        a       rdfs:Class .
+
+iso:broaderGeneric  a  rdf:Property .
+
+void:target  a  rdf:Property .
+
+gvp:aat2801_conjuncted_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+dcat:Distribution  a  rdfs:Class .
+
+aat:300107591-list-300107595
+        a       rdf:List .
+
+skos:memberList  a  rdf:Property .
+
+aat:300106605-list-300018558
+        a       rdf:List .
+
+aat:300021033-list-300021144
+        a       rdf:List .
+
+aat:300106724-list-300403945
+        a       rdf:List .
+
+aat:300204989-list-300198243
+        a       rdf:List .
+
+gvp:aat2812_followed  a  rdf:Property .
+
+gvp:ulan1202_patron_was
+        a       rdf:Property .
+
+adms:Asset  a   rdfs:Class .
+
+gvp:ulan1303_collaborated_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300263527-list-300263528
+        a       rdf:List .
+
+gvp:ulan1544_significant_other_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+schema:gender  a  rdf:Property .
+
+void:uriSpace  a  rdf:Property .
+
+void:exampleResource  a  rdf:Property .
+
+owl:ObjectProperty  a  rdfs:Class .
+
+aat:300127748-list-300127750
+        a       rdf:List .
+
+aat:300106580-list-300018529
+        a       rdf:List .
+
+gvp:nationalityNonPreferred
+        a       rdf:Property .
+
+void:feature  a  rdf:Property .
+
+aat:300020252-list-300110170
+        a       rdf:List .
+
+rdf:nil  a      rdf:List .
+
+gvp:aat2218_used-function_as
+        a       rdf:Property .
+
+gvp:ulan1111_master_of
+        a       rdf:Property .
+
+ptop:premise2  a  rdf:Property .
+
+dct:license  a  rdf:Property .
+
+gvp:aat2408_locus-setting_for
+        a       rdf:Property .
+
+aat:300006084-list-300006085
+        a       rdf:List .
+
+cc:requires  a  rdf:Property .
+
+gvp:aat2329_involves  a  rdf:Property .
+
+skos:hiddenLabel  a  rdf:Property .
+
+gvp:aat2212_produced_by
+        a       rdf:Property .
+
+cc:attributionName  a  rdf:Property .
+
+aat:300107580-list-300107582
+        a       rdf:List .
+
+aat:300046065-list-300213743
+        a       rdf:List .
+
+aat:300007836-list-300007837
+        a       rdf:List .
+
+aat:300000206-list-300008633
+        a       rdf:List .
+
+void:rootResource  a  rdf:Property .
+
+aat:300020063-list-300020071
+        a       rdf:List .
+
+gvp:aat2205_causes-is_required
+        a       rdf:Property .
+
+aat:300006495-list-300252225
+        a       rdf:List .
+
+gvp:ulan1108_influenced_by
+        a       rdf:Property .
+
+iso:superGroup  a  owl:TransitiveProperty .
+
+gvp:ulan1203_donor_of
+        a       rdf:Property .
+
+aat:300233610-list-300233613
+        a       rdf:List .
+
+gvp:ulan1214_court_artist_was
+        a       rdf:Property .
+
+gvp:ulan1547_romantic_partner_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1550_relative_by_marriage
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2504_used-located_in
+        a       rdf:Property .
+
+aat:300037769-list-300037771
+        a       rdf:List .
+
+gvp:aat2875_characteristic_of
+        a       rdf:Property .
+
+gvp:ulan2651_publisher_of
+        a       rdf:Property .
+
+gvp:ulan1221_appointed_by
+        a       rdf:Property .
+
+aat:300018082-list-300107832
+        a       rdf:List .
+
+aat:300018523-list-300018524
+        a       rdf:List .
+
+gvp:qualifier  a  rdf:Property .
+
+gvp:ulan1512_parent_of
+        a       rdf:Property .
+
+aat:300013135-list-300013136
+        a       rdf:List .
+
+gvp:broader  a  rdf:Property .
+
+schema:latitude  a  rdf:Property .
+
+dct:LicenseDocument  a  rdfs:Class .
+
+gvp:aat2885_involves  a  rdf:Property .
+
+void:linkPredicate  a  rdf:Property .
+
+aat:300020306-list-300020308
+        a       rdf:List .
+
+gvp:sourcePreferred  a  rdf:Property .
+
+gvp:ulan1552_parent_by_marriage_of
+        a       rdf:Property .
+
+aat:300016983-list-300016984
+        a       rdf:List .
+
+gvp:ulan1307_assistant_of
+        a       rdf:Property .
+
+[ a       rdf:List ] .
+
+gvp:aat2435_context_for
+        a       rdf:Property .
+
+aat:300008217-list-300008219
+        a       rdf:List .
+
+aat:300020060-list-300020063
+        a       rdf:List .
+
+owl:sameAs  a   rdf:Property .
+
+rdf:first  a    rdf:Property .
+
+aat:300199635-list-300053220
+        a       rdf:List .
+
+gvp:aat2281_have_counterpart
+        a       owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan2782_dedicated_to
+        a       rdf:Property .
+
+owl:onProperty  a  rdf:Property .
+
+aat:300008347-list-300008350
+        a       rdf:List .
+
+gvp:tgn3101_adjacent_to
+        a       rdf:Property .
+
+gvp:aat2826_used_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+rdfs:comment  a  rdf:Property .
+
+rdf:object  a   rdf:Property .
+
+skos:related  a  owl:SymmetricProperty , rdf:Property .
+
+aat:300019279-list-300106738
+        a       rdf:List .
+
+aat:300022633-list-300022635
+        a       rdf:List .
+
+aat:300019104-list-300019106
+        a       rdf:List .
+
+schema:GeoCoordinates
+        a       rdfs:Class .
+
+skosxl:labelRelation  a  owl:SymmetricProperty , rdf:Property .
+
+gvp:ulan1556_half-sibling_of
+        a       owl:SymmetricProperty , rdf:Property .
+
+skosxl:prefLabel  a  rdf:Property .
+
+rdfs:Class  a   rdfs:Class .
+
+aat:300174552-list-300018744
+        a       rdf:List .
+
+aat:300019275-list-300019276
+        a       rdf:List .
+
+[ a       ptop:PropChain ] .
+
+prov:startedAtTime  a  rdf:Property .
+
+vcard:email  a  rdf:Property .
+
+gvp:contributorNonPreferred
+        a       rdf:Property .
+
+aat:300053203-list-300053471
+        a       rdf:List .
+
+aat:300011498-list-300011500
+        a       rdf:List .
+
+aat:300016964-list-300016965
+        a       rdf:List .

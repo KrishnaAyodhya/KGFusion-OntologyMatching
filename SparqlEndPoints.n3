@@ -1,0 +1,10 @@
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://vocab.getty.edu/sparql>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://linkedgeodata.org/sparql/>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://data.logainm.ie/sparql>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://cr.eionet.europa.eu/sparql>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://lobid.org/sparql/>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://sparql.openmobilenetwork.org>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://api.talis.com/stores/ordnance-survey/services/sparql>.
+<http://sparql.contextdatacloud.org> <http://example.com/test#matches> <http://api.talis.com/stores/theviewfrom/services/sparql>.
+<http://harvard.eagle-i.net/sparqler/sparql> <http://example.com/test#matches> <http://upr.eagle-i.net/sparqler/sparql>.
+<http://harvard.eagle-i.net/sparqler/sparql> <http://example.com/test#matches> <http://drugbank.bio2rdf.org/sparql>.

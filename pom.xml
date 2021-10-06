@@ -13,13 +13,13 @@
 	<!-- @todo Customize this value 👇 -->
 	<description>DEER Plugin Starter</description>
 	<!-- @todo Customize this value 👇 -->
-	<url>https://github.com/dice-group/DEER</url>
+	<url>https://github.com/KrishnaAyodhya/KGFusion-OntologyMatching</url>
 
 	<scm>
 		<!-- @todo Customize this value 👇 -->
-		<url>https://github.com/dice-group/deer-plugin-starter</url>
+		<url>https://github.com/KrishnaAyodhya/KGFusion-OntologyMatching.git</url>
 		<!-- @todo Customize this value 👇 -->
-		<connection>scm:git:https://github.com/dice-group/deer-plugin-starter.git</connection>
+		<connection>scm:git:https://github.com/KrishnaAyodhya/KGFusion-OntologyMatching.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -234,6 +234,17 @@
 			<version>4.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.4</version>
+		</dependency>
 		<dependency>
 			<groupId>org.aksw.deer</groupId>
 			<artifactId>deer-core</artifactId>
