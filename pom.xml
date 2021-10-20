@@ -153,7 +153,9 @@
 						</goals>
 					</execution>
 				</executions>
+
 				<configuration>
+					<failOnError>false</failOnError>
 					<includeDependencySources>true</includeDependencySources>
 					<dependencySourceIncludes>
 						<dependencySourceInclude>org.aksw.deer:*</dependencySourceInclude>

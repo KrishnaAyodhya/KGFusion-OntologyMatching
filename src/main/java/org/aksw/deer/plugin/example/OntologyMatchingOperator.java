@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -73,6 +74,9 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	protected List<Model> safeApply(List<Model> models) { // 3
 		// Model a = filterModel(models.get(0));
 
+		// create an empty Model
+		Model model = ModelFactory.createDefaultModel();
+
 		String selector = getParameterMap().getOptional(SELECTOR).map(RDFNode::asLiteral).map(Literal::getString)
 				.orElse("selector value not found");
 		// System.out.println(selector);
@@ -82,13 +86,16 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		// not found");
 		// System.out.println(confidenceValue);
 
+		HashMap<String, String> endpointsMap = new HashMap<>();
 		try {
-			sparqlEndPoints();
+			endpointsMap = sparqlEndPoints();
 		} catch (OWLOntologyCreationException e) {
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+
+		List<Model> listModel = new ArrayList<>();
 
 		int classesMapID = 0;
 		int dataPropertyMapID = 1;
@@ -97,14 +104,30 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		// Iterating through the ttl files generated for matched instances given from
 		// previous team
 		for (int j = 1; j < fileNameCounter; j++) {
-			System.out.println("---------------------Classes Mapping---------------------");
-			UsingLogMapMatcher("endpoint_1." + j + ".ttl", "endpoint_2." + j + ".ttl", classesMapID,"classMap",j);
 
-			System.out.println("---------------------Data Property Mapping---------------------");
-			UsingLogMapMatcher("endpoint_1." + j + ".ttl", "endpoint_2." + j + ".ttl", dataPropertyMapID, "dataPropertyMap",j);
+			try {
+				System.out.println("---------------------Classes Mapping---------------------");
+				listModel.add(UsingLogMapMatcher("endpoint_1." + j + ".ttl", "endpoint_2." + j + ".ttl", classesMapID,
+						"classMap", j, endpointsMap.get("endpoint_1." + j + ".ttl"),
+						endpointsMap.get("endpoint_2." + j + ".ttl")));
 
-			System.out.println("---------------------Object Property Mapping---------------------");
-			UsingLogMapMatcher("endpoint_1." + j + ".ttl", "endpoint_2." + j + ".ttl", objectPropertyMapID,"objectPropertyMap",j);
+				System.out.println("End 1"+ endpointsMap.get("endpoint_1." + j + ".ttl"));
+				System.out.println("End 2" + endpointsMap.get("endpoint_2." + j + ".ttl"));
+				
+				System.out.println("---------------------Data Property Mapping---------------------");
+				listModel.add(UsingLogMapMatcher("endpoint_1." + j + ".ttl", "endpoint_2." + j + ".ttl",
+						dataPropertyMapID, "dataPropertyMap", j, endpointsMap.get("endpoint_1." + j + ".ttl"),
+						endpointsMap.get("endpoint_2." + j + ".ttl")));
+
+				System.out.println("---------------------Object Property Mapping---------------------");
+				listModel.add(UsingLogMapMatcher("endpoint_1." + j + ".ttl", "endpoint_2." + j + ".ttl",
+						objectPropertyMapID, "objectPropertyMap", j, endpointsMap.get("endpoint_1." + j + ".ttl"),
+						endpointsMap.get("endpoint_2." + j + ".ttl")));
+
+			} catch (OWLOntologyCreationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 
 		}
 
@@ -116,15 +139,17 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		 * UsingLogMapMatcher("dbpedia2.ttl", "yagoo2.ttl", objectPropertyMapID);
 		 */
 
-		// create an empty Model
-		Model model = ModelFactory.createDefaultModel();
-		return List.of(model);
+		System.out.println(listModel);
+		return listModel;
 	}
 
 //	dynamically calling sparql endpoints from KG matching
-	public static void sparqlEndPoints() throws OWLOntologyCreationException, FileNotFoundException {
+	public static HashMap<String, String> sparqlEndPoints() throws OWLOntologyCreationException, FileNotFoundException {
 
 		HashMap<String, String> objectSubjectMap = new HashMap<>();
+
+		// Map for storing End-point and file names
+		HashMap<String, String> endpointsMap = new HashMap<>();
 
 		OWLOntologyManager m = OWLManager.createOWLOntologyManager();
 
@@ -152,6 +177,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				Model model1 = QueryExecutionFactory.sparqlService(getRedirectedUrl(subjectEndpoint), new_query)
 						.execConstruct();
 				model1.write(new FileOutputStream("endpoint_1." + fileNameCounter + ".ttl"), "TTL");
+				endpointsMap.put("endpoint_1." + fileNameCounter + ".ttl", subjectEndpoint.toString());
 
 				// Yago model
 				// endpointStr = "https://yago-knowledge.org/sparql/query";
@@ -159,6 +185,8 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 						.sparqlService(getRedirectedUrl(objectSubjectMap.get(subjectEndpoint)), new_query)
 						.execConstruct();
 				model2.write(new FileOutputStream("endpoint_2." + fileNameCounter + ".ttl"), "TTL");
+				endpointsMap.put("endpoint_2." + fileNameCounter + ".ttl",
+						objectSubjectMap.get(subjectEndpoint).toString());
 
 				fileNameCounter++;
 			} catch (Exception e) {
@@ -166,6 +194,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				System.out.println("Subject : " + subjectEndpoint + ",Exception name : " + e);
 			}
 		}
+		return endpointsMap;
 
 	}
 
@@ -233,11 +262,14 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 	/**
 	 * Uses OWL API
-	 * @param fileIndex 
-	 * @param string 
+	 * 
+	 * @param fileIndex
+	 * @param string
+	 * @throws OWLOntologyCreationException
 	 * 
 	 */
-	public void UsingLogMapMatcher(String file1, String file2, int a, String mapType, int fileIndex) {
+	public Model UsingLogMapMatcher(String file1, String file2, int a, String mapType, int fileIndex, String endpoint1,
+			String endpoint2) throws OWLOntologyCreationException {
 
 		// Log Map variables
 		OWLOntology onto1;
@@ -254,153 +286,127 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 		LogMap2_Matcher logmap2;
 
-		try {
+		onto_manager = OWLManager.createOWLOntologyManager();
+		MissingImportHandlingStrategy silent = MissingImportHandlingStrategy.SILENT;
+		OWLOntologyLoaderConfiguration setMissingImportHandlingStrategy = onto_manager.getOntologyLoaderConfiguration()
+				.setMissingImportHandlingStrategy(silent);
+		onto_manager.setOntologyLoaderConfiguration(setMissingImportHandlingStrategy);
+		OWLOntologyManager onto_manager1 = OWLManager.createOWLOntologyManager();
+		MissingImportHandlingStrategy silent1 = MissingImportHandlingStrategy.SILENT;
+		OWLOntologyLoaderConfiguration setMissingImportHandlingStrategy1 = onto_manager1
+				.getOntologyLoaderConfiguration().setMissingImportHandlingStrategy(silent1);
+		onto_manager1.setOntologyLoaderConfiguration(setMissingImportHandlingStrategy1);
 
-			onto_manager = OWLManager.createOWLOntologyManager();
-			MissingImportHandlingStrategy silent = MissingImportHandlingStrategy.SILENT;
-			OWLOntologyLoaderConfiguration setMissingImportHandlingStrategy = onto_manager
-					.getOntologyLoaderConfiguration().setMissingImportHandlingStrategy(silent);
-			onto_manager.setOntologyLoaderConfiguration(setMissingImportHandlingStrategy);
-			OWLOntologyManager onto_manager1 = OWLManager.createOWLOntologyManager();
-			MissingImportHandlingStrategy silent1 = MissingImportHandlingStrategy.SILENT;
-			OWLOntologyLoaderConfiguration setMissingImportHandlingStrategy1 = onto_manager1
-					.getOntologyLoaderConfiguration().setMissingImportHandlingStrategy(silent1);
-			onto_manager1.setOntologyLoaderConfiguration(setMissingImportHandlingStrategy1);
+		onto1 = onto_manager.loadOntologyFromOntologyDocument(new File(onto1_iri));
+		onto2 = onto_manager1.loadOntologyFromOntologyDocument(new File(onto2_iri));
+		// Call to logMap system
+		logmap2 = new LogMap2_Matcher(onto1, onto2, false);
 
-			onto1 = onto_manager.loadOntologyFromOntologyDocument(new File(onto1_iri));
-			onto2 = onto_manager1.loadOntologyFromOntologyDocument(new File(onto2_iri));
-			// Call to logMap system
-			logmap2 = new LogMap2_Matcher(onto1, onto2, false);
+		// Generates labels of the matched classes
+		Set<String> representativeLabelsForMappings = logmap2.getRepresentativeLabelsForMappings();
 
-			// Generates labels of the matched classes
-			Set<String> representativeLabelsForMappings = logmap2.getRepresentativeLabelsForMappings();
+		// Set of mappings computed my LogMap
+		Set<MappingObjectStr> logmap2_mappings = logmap2.getOverEstimationOfMappings();
 
-			// Set of mappings computed my LogMap
-			Set<MappingObjectStr> logmap2_mappings = logmap2.getLogmap2_Mappings();
+		Iterator<MappingObjectStr> iterator = logmap2_mappings.iterator();
 
-			Iterator<MappingObjectStr> iterator = logmap2_mappings.iterator();
+		// Adding Model
+		Model model = ModelFactory.createDefaultModel();
 
-			// Adding Model
-			Model model = ModelFactory.createDefaultModel();
+		// Variable for tracking Type of Mapping
+		int typeOfMapping = -1;
 
-			// Variable for tracking Type of Mapping
-			int typeOfMapping = -1;
+		// Returns elements of the LogMap
+		while (iterator.hasNext()) {
+			// Generates IRIs of matched classes
+			// Structuralconfidence, Lexicalconfidence and confidence values
+			// if properties are matched
+			MappingObjectStr next = iterator.next();
+			if (next.getTypeOfMapping() == a) {
+				typeOfMapping = next.getTypeOfMapping();
+				System.out.println("Labels : " + representativeLabelsForMappings);
 
-			// Returns elements of the LogMap
-			while (iterator.hasNext()) {
-				// Generates IRIs of matched classes
-				// Structuralconfidence, Lexicalconfidence and confidence values
-				// if properties are matched
-				MappingObjectStr next = iterator.next();
-				if (next.getTypeOfMapping() == a) {
-					typeOfMapping = next.getTypeOfMapping();
-					System.out.println("Labels : " + representativeLabelsForMappings);
+				String iriStrEnt1 = next.getIRIStrEnt1();
+				String iriStrEnt2 = next.getIRIStrEnt2();
+				System.out.println("URL of ontology 1 : " + iriStrEnt1);
+				System.out.println("URL of ontology 2 : " + iriStrEnt2);
+				System.out.println("Structural Mappings of two ontologies : " + next.getStructuralConfidenceMapping());
+				System.out.println("Confidence value of the mapping : " + next.getConfidence());
+				System.out.println("LexicalConfidnce of the labels:" + next.getLexicalConfidenceMapping());
+				System.out.println("dataProperty in the ontologies:" + next.isDataPropertyMapping());
+				System.out.println("objectProperty in the ontologies:" + next.isObjectPropertyMapping());
+				// System.out.println(next.DATAPROPERTIES);
+				// System.out.println(next.OBJECTPROPERTIES);
+				// In this matching we look for matched classe's properties not instance
+				// properties
+				// Type of mapping:
+				// it tells whether is class=0,dataproperty=1
+				// ,objectproperty=2,instance=3,unknown=4 based on the aassigned numbers
+				System.out.println("Type of mapping : " + next.getTypeOfMapping());
+				// Output format
+				System.out.println("---------------output format-------------------");
+				String deer = "https://w3id.org/deer/";
+				int numberOfMatches = 1;
+				final Resource matchResource = model.createResource("Match " + numberOfMatches);
+				final Property matchProperty = model.createProperty("found");
+				numberOfMatches++;
 
-					String iriStrEnt1 = next.getIRIStrEnt1();
-					String iriStrEnt2 = next.getIRIStrEnt2();
-					System.out.println("URL of ontology 1 : " + iriStrEnt1);
-					System.out.println("URL of ontology 2 : " + iriStrEnt2);
-					System.out.println(
-							"Structural Mappings of two ontologies : " + next.getStructuralConfidenceMapping());
-					System.out.println("Confidence value of the mapping : " + next.getConfidence());
-					System.out.println("LexicalConfidnce of the labels:" + next.getLexicalConfidenceMapping());
-					System.out.println("dataProperty in the ontologies:" + next.isDataPropertyMapping());
-					System.out.println("objectProperty in the ontologies:" + next.isObjectPropertyMapping());
-					// System.out.println(next.DATAPROPERTIES);
-					// System.out.println(next.OBJECTPROPERTIES);
-					// In this matching we look for matched classe's properties not instance
-					// properties
-					// Type of mapping:
-					// it tells whether is class=0,dataproperty=1
-					// ,objectproperty=2,instance=3,unknown=4 based on the aassigned numbers
-					System.out.println("Type of mapping : " + next.getTypeOfMapping());
-					// Output format
-					System.out.println("---------------output format-------------------");
-					String deer = "https://w3id.org/deer/";
-					int numberOfMatches = 1;
-					final Resource matchResource = model.createResource("Match " + numberOfMatches);
-					final Property matchProperty = model.createProperty("found");
-					numberOfMatches++;
+				Resource resource = model.createResource(next.getIRIStrEnt1());
+				// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
+				Property related = model.createProperty(deer, "matchesWith");
+				Resource resource2 = model.createResource(next.getIRIStrEnt2());
+				// confidence
+				// Property confProp = model.createProperty("confidence");
+				Property confProp = model.createProperty(deer, "confidenceValue");
+				double confidence2 = next.getConfidence();
+				Literal confidence = model.createLiteral(String.valueOf(confidence2));
+				// DataProperty
+				// Property dataProp = model.createProperty("dataProperty");
+				// Property dataProp = model.createProperty(deer, "dataProperty");
+				boolean dataPropertyMapping = next.isDataPropertyMapping();
+				Literal dataPropMap = model.createLiteral(String.valueOf(dataPropertyMapping));
+				// ObjectProperty
+				// Property objectProp = model.createProperty(deer, "objectProperty");
+				boolean objectPropertyMapping = next.isObjectPropertyMapping();
+				Literal objectPropMap = model.createLiteral(String.valueOf(objectPropertyMapping));
 
-					Resource resource = model.createResource(next.getIRIStrEnt1());
-					// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
-					Property related = model.createProperty(deer, "matchesWith");
-					Resource resource2 = model.createResource(next.getIRIStrEnt2());
-					// confidence
-					// Property confProp = model.createProperty("confidence");
-					Property confProp = model.createProperty(deer, "confidenceValue");
-					double confidence2 = next.getConfidence();
-					Literal confidence = model.createLiteral(String.valueOf(confidence2));
-					// DataProperty
-					// Property dataProp = model.createProperty("dataProperty");
-					// Property dataProp = model.createProperty(deer, "dataProperty");
-					boolean dataPropertyMapping = next.isDataPropertyMapping();
-					Literal dataPropMap = model.createLiteral(String.valueOf(dataPropertyMapping));
-					// ObjectProperty
-					// Property objectProp = model.createProperty(deer, "objectProperty");
-					boolean objectPropertyMapping = next.isObjectPropertyMapping();
-					Literal objectPropMap = model.createLiteral(String.valueOf(objectPropertyMapping));
-
-					// resource.addProperty(related, next.getIRIStrEnt2());
-
-					Statement stmt2 = model.createStatement(resource, related, resource2);
-
-					ReifiedStatement createReifiedStatement = model.createReifiedStatement(stmt2);
-					createReifiedStatement.addProperty(confProp, confidence);
-					// createReifiedStatement.addProperty(dataProp, dataPropMap);
-					// createReifiedStatement.addProperty(objectProp, objectPropMap);
-
-					model.add(matchResource, matchProperty, createReifiedStatement);
+				Property spEP1 = model.createProperty(deer,"EndPoint1");
+				Resource sparqlEndPoint1 = model.createResource(endpoint1);
 				
-				}
-					// Output file
-					try (OutputStream out = new FileOutputStream("MappingOutput" + fileIndex + "_" +mapType +  ".ttl")) {
-						model.write(out, "N-TRIPLES");
-						model.write(System.out, "N-TRIPLES");
-					} catch (FileNotFoundException e) {
-						e.printStackTrace();
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
+				Property spEP2 = model.createProperty(deer,"EndPoint2");
+				Resource sparqlEndPoint2 = model.createResource(endpoint2);
+				
+				// resource.addProperty(related, next.getIRIStrEnt2());
+
+				Statement stmt2 = model.createStatement(resource, related, resource2);
+
+				ReifiedStatement createReifiedStatement = model.createReifiedStatement(stmt2);
+				createReifiedStatement.addProperty(confProp, confidence);
+				createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+				createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
+				// createReifiedStatement.addProperty(dataProp, dataPropMap);
+				// createReifiedStatement.addProperty(objectProp, objectPropMap);
+
+				model.add(matchResource, matchProperty, createReifiedStatement);
 
 			}
-
-			if (typeOfMapping == a) {
-				System.out.println("Number of mappings computed by LogMap: " + logmap2_mappings.size());
-				System.out.println("-----------------------------------");
+			// Output file
+			try (OutputStream out = new FileOutputStream("MappingOutput" + fileIndex + "_" + mapType + ".ttl")) {
+				model.write(out, "TTL");
+				model.write(System.out, "TTL");
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
 
-			Set<MappingObjectStr> overEstimationOfMappings = logmap2.getOverEstimationOfMappings();
-			iterator = overEstimationOfMappings.iterator();
-
-			// Returns elements of the LogMap
-			while (iterator.hasNext()) {
-				// Generates IRIs of matched classes
-				// Structuralconfidence, Lexicalconfidence and confidence values
-				// if properties are matched
-				MappingObjectStr next = iterator.next();
-				if (next.getTypeOfMapping() == a) {
-					String iriStrEnt1 = next.getIRIStrEnt1();
-					String iriStrEnt2 = next.getIRIStrEnt2();
-					System.out.println("URL of ontology 1 : " + iriStrEnt1);
-					System.out.println("URL of ontology 2 : " + iriStrEnt2);
-					System.out.println(
-							"Structural Mappings of two ontologies : " + next.getStructuralConfidenceMapping());
-					System.out.println("Confidence value of the mapping : " + next.getConfidence());
-					System.out.println("LexicalConfidnce of the labels:" + next.getLexicalConfidenceMapping());
-					System.out.println("dataProperty in the ontologies:" + next.isDataPropertyMapping());
-					System.out.println("objectProperty in the ontologies:" + next.isObjectPropertyMapping());
-					// System.out.println(next.DATAPROPERTIES);
-					// System.out.println(next.OBJECTPROPERTIES);
-
-					System.out.println("Type of mapping : " + next.getTypeOfMapping());
-				}
-
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
+
+		if (typeOfMapping == a) {
+			System.out.println("Number of mappings computed by LogMap: " + logmap2_mappings.size());
+			System.out.println("-----------------------------------");
+		}
+		return model;
 
 	}
 
