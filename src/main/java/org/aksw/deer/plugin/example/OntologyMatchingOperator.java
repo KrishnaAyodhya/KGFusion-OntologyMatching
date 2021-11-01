@@ -153,7 +153,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 		OWLOntologyManager m = OWLManager.createOWLOntologyManager();
 
-		String owlFile = "SparqlEndPoints.n3";
+		String owlFile = "SparqlEndPoints_Prev_Team.ttl";
 		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 		model.read(owlFile);
 
@@ -347,8 +347,8 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				System.out.println("---------------output format-------------------");
 				String deer = "https://w3id.org/deer/";
 				int numberOfMatches = 1;
-				final Resource matchResource = model.createResource("Match " + numberOfMatches);
-				final Property matchProperty = model.createProperty("found");
+				final Resource matchResource = model.createResource(deer + "Match " + numberOfMatches);
+				final Property matchProperty = model.createProperty(deer, "found");
 				numberOfMatches++;
 
 				Resource resource = model.createResource(next.getIRIStrEnt1());
