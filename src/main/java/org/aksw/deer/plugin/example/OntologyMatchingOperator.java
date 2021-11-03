@@ -53,7 +53,8 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	public static final Property OBJECT = DEER.property("object");
 	public static final Property SELECTOR = DEER.property("selector");
 	public static final Property CONFIDENCEVALUE = DEER.property("confidenceValue");
-
+	public static final Property TYPEMAP = DEER.property("typeOfMap");
+	
 	private static int fileNameCounter = 1;
 
 	public OntologyMatchingOperator() throws OWLOntologyCreationException {
@@ -63,8 +64,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 	@Override
 	public ValidatableParameterMap createParameterMap() { // 2
-		return ValidatableParameterMap.builder().declareProperty(SELECTOR).declareProperty(CONFIDENCEVALUE)
-				.declareValidationShape(getValidationModelFor(OntologyMatchingOperator.class)).build();
+		return ValidatableParameterMap.builder().declareProperty(TYPEMAP).declareValidationShape(getValidationModelFor(OntologyMatchingOperator.class)).build();
 	}
 
 	/**
@@ -79,6 +79,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 		String selector = getParameterMap().getOptional(SELECTOR).map(RDFNode::asLiteral).map(Literal::getString)
 				.orElse("selector value not found");
+		
 		// System.out.println(selector);
 
 		// String confidenceValue =
@@ -370,10 +371,10 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				boolean objectPropertyMapping = next.isObjectPropertyMapping();
 				Literal objectPropMap = model.createLiteral(String.valueOf(objectPropertyMapping));
 
-				Property spEP1 = model.createProperty(deer,"EndPoint1");
+				Property spEP1 = model.createProperty(deer,"SubjectEndPoint");
 				Resource sparqlEndPoint1 = model.createResource(endpoint1);
 				
-				Property spEP2 = model.createProperty(deer,"EndPoint2");
+				Property spEP2 = model.createProperty(deer,"ObjectEndPoint");
 				Resource sparqlEndPoint2 = model.createResource(endpoint2);
 				
 				// resource.addProperty(related, next.getIRIStrEnt2());
