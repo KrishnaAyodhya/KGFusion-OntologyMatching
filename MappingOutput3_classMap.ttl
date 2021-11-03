@@ -1,0 +1,519 @@
+<https://w3id.org/deer/Match 1>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#OntologyProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#DeprecatedProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2000/01/rdf-schema#Class> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#Class> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2002/07/owl#DeprecatedProperty> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#DeprecatedClass> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2002/07/owl#DeprecatedClass> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/2002/07/owl#DeprecatedProperty> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://cr.eionet.europa.eu/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://linked.opendata.cz/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] .
