@@ -1,6 +1,127 @@
-<Match 1> <found> _:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 .
-_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <https://w3id.org/deer/confidenceValue> "1.075" .
-_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://purl.org/dc/terms/Agent> .
-_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/deer/matchesWith> .
-_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://eagle-i.org/ont/repo/1.0/Agent> .
-_:B9c8d4e3aX2Dea29X2D4f45X2Dbaa8X2D4d57f39d59a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<https://w3id.org/deer/Match 1>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://id.loc.gov/ontologies/bibframe/Person> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://purl.org/collections/nl/dss/elbing/Person> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/vocab/EntityContainer> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/ns/prov#EntityInfluence> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/marc/ActionNote> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/ns/prov#Activity> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/vocab/FieldOfActivity> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/ns/prov#Activity> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://id.loc.gov/ontologies/bibframe/Person> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://xmlns.com/foaf/0.1/Person> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/vocab/hasIntellectualEntity> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/ns/prov#EntityInfluence> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/vocab/Person> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://xmlns.com/foaf/0.1/Person> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/vocab/ProvisionActivity> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://www.w3.org/ns/prov#Activity> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <https://id.kb.se/vocab/Person> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://purl.org/collections/nl/dss/elbing/Person> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://semanticweb.cs.vu.nl/dss/sparql/> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
